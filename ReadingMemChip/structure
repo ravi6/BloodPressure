@@ -1,0 +1,53 @@
+struct data
+{
+unsigned char c4
+unsigned char c3
+unsigned char c2
+unsigned char c1
+}
+
+
+void main()
+{
+int mm, hh, dd, 
+
+/*
+FD FF d8 21 41 fd
+Ss/DS/PU   MM/DD 
+1st  165/91/91  12/1  4:30 PM
+59th 136/86/78   5/5  10:02 AM
+60th 174/75/75  5/4   7:55 PM
+*/
+
+/* Primitive 
+Month --  4bits
+Date  --  5bits
+Hrs   --  5bits
+Mins  --  6bits
+        ========
+         20 bits
+        ========
+Sec   --  6bits
+
+Sys  -- 8bits
+Dia  -- 8bits
+Pulse -- 8bits
+       =======
+        24 bits
+       ========
+
+44*60 
+
+*/ End primitive
+
+/* 80 byte capture
+ *
+ * 
+ fdff d821 41fd 2821 4acd bc7d 9cef 2bea
+ 67ef 6f26 fe7d da01 d47f 36eb a1c7 47f5
+ b3ef 9e3f 79f3 5bce 9dbd d5dd 522b 643a
+ 55db ddfb c4df c736 345d ddae 377f efa4
+ dd9d e7fc 4516 19d6 5097 76eb 6ddf fb9e
+*/
+
+
