@@ -4,9 +4,9 @@ Reverse engineering a Blood Pressure Monitor
 Several years passed (6?) since I embarked on this
 ## PHASE 1
     First attemp was to quickly read the eeprom chip on board with the help of Dan who isolated the chip from the bus
-    Used parallel port of pc to read the eeprom    Found that it only contained bootup code instead of bp reading.
-    It has just enough words that corresponded with     number of BP readings that device stored. Tried several means of
-    compacting all the readings into eeprom but it did not quite    workout. More over, the contents of eeprom did not change as more    readings are added or deleted.    Spent lot of time chasing Toshiba microprocessor details, and finally
+    Used parallel port of pc to read the eeprom .Found that it only contained bootup code instead of bp reading.
+    It has just enough words that corresponded with number of BP readings that device stored. Tried several means of
+    compacting all the readings into eeprom but it did not quite    workout. More over, the contents of eeprom did not change   as more readings are added or deleted. Spent lot of time chasing Toshiba microprocessor details, and finally
      got some data based on chip whose marking are similar.    To our dismay the IC contained internal EEPROM !!!. So we can't     directly access it.
 
 ## PHASE 2
