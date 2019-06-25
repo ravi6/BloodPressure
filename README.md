@@ -2,7 +2,7 @@
 Reverse engineering a Blood Pressure Monitor
 
 Several years passed (6?) since I embarked on this
-* PHASE 1
+** PHASE 1
     First attemp was to quickly read the eeprom chip on board
     with the help of Dan who isolated the chip from the bus
     Used parallel port of pc to read the eeprom
@@ -17,7 +17,7 @@ Several years passed (6?) since I embarked on this
     To our dismay the IC contained internal EEPROM !!!. So we can't 
     directly access it.
 
-* PHASE 2
+** PHASE 2
     Thought of tracking display driver data lines.
     Realizing all of the display driver is embedded in the main processor,
     the only recourse was to tap into the lcd drive signals coming from the
@@ -30,7 +30,7 @@ Several years passed (6?) since I embarked on this
     we could not align the ribbon cable back on the the pcb pad with tracks spaced
     at 1mm. 
 
-* PHASE 3
+** PHASE 3
     Had to understand how LCD panel are driven. Dan once again with his superior
     analytical skills and patience, managed to see which signal lines excited each
     of the display segments and symbols on the LCD panel.
