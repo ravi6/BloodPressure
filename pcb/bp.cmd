@@ -1,5 +1,51 @@
 # Pin name action command file
 
+# Start of element C1
+ChangePinName(C1, 2, 2)
+ChangePinName(C1, 1, 1)
+
+# Start of element C2
+ChangePinName(C2, 2, 2)
+ChangePinName(C2, 1, 1)
+
+# Start of element U?
+ChangePinName(U?, 1, GND)
+ChangePinName(U?, 3, Vin)
+ChangePinName(U?, 2, Vout)
+ChangePinName(U?, 20, D18)
+ChangePinName(U?, 19, D19)
+ChangePinName(U?, 18, SCL/D4)
+ChangePinName(U?, 17, SDA/D5)
+ChangePinName(U?, 21, RX+)
+ChangePinName(U?, 22, RX-)
+ChangePinName(U?, 23, TX+)
+ChangePinName(U?, 24, TX-)
+ChangePinName(U?, 25, VOUT)
+ChangePinName(U?, 26, FWRST/D38)
+ChangePinName(U?, 27, TXo/D12)
+ChangePinName(U?, 28, RX0/D13)
+ChangePinName(U?, 29, D-)
+ChangePinName(U?, 30, D+)
+ChangePinName(U?, 31, VIN)
+ChangePinName(U?, 32, GND)
+ChangePinName(U?, 9, D45/TX1)
+ChangePinName(U?, 15, D0/SDI)
+ChangePinName(U?, 14, D1/SDO)
+ChangePinName(U?, 16, RST)
+ChangePinName(U?, 11, D8/MOSI)
+ChangePinName(U?, 10, D9/MISO)
+ChangePinName(U?, 13, D6/CSI)
+ChangePinName(U?, 12, D7/CLK)
+ChangePinName(U?, 6, D16)
+ChangePinName(U?, 5, D17)
+ChangePinName(U?, 8, D46/RX1)
+ChangePinName(U?, 7, D15)
+ChangePinName(U?, 2, Vout)
+ChangePinName(U?, 1, GND)
+ChangePinName(U?, 4, D2/WS)
+ChangePinName(U?, 3, Vin)
+ChangePinName(U?, 1, GND)
+
 # Start of element U115
 ChangePinName(U115, unknown, unknown)
 ChangePinName(U115, unknown, unknown)
@@ -50,26 +96,6 @@ ChangePinName(U111, unknown, unknown)
 ChangePinName(U111, unknown, unknown)
 ChangePinName(U111, 2, Y)
 ChangePinName(U111, 3, A)
-
-# Start of element CONN5
-ChangePinName(CONN5, 8, 8)
-ChangePinName(CONN5, 7, 7)
-ChangePinName(CONN5, 6, 6)
-ChangePinName(CONN5, 5, 5)
-ChangePinName(CONN5, 4, 4)
-ChangePinName(CONN5, 3, 3)
-ChangePinName(CONN5, 2, 2)
-ChangePinName(CONN5, 1, 1)
-
-# Start of element CONN4
-ChangePinName(CONN4, 8, 8)
-ChangePinName(CONN4, 7, 7)
-ChangePinName(CONN4, 6, 6)
-ChangePinName(CONN4, 5, 5)
-ChangePinName(CONN4, 4, 4)
-ChangePinName(CONN4, 3, 3)
-ChangePinName(CONN4, 2, 2)
-ChangePinName(CONN4, 1, 1)
 
 # Start of element CONN3
 ChangePinName(CONN3, 8, 8)

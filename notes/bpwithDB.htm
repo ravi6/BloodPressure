@@ -1,0 +1,235 @@
+<html>
+<style>
+form   {font-family: Verdana;
+      font-size: 14px;}
+input#box {width:100px; color: blue; 
+      font-weight: bold;
+      background-color: yellow; }
+</style>
+
+<script type="text/javascript">
+
+//===== Globals ================ yukk
+  var min_psys = 50 ; var max_psys = 180 ;
+  var min_pdia = 50 ; var max_pdia = 180 ;
+
+//================================================
+// Prepare/Open database
+//================================================
+
+var db = openDatabase("RaviDb", "1.0", "RavisData", 20*1024*1024);
+console.log("db=",db);
+
+clearDatabase();
+db.transaction(function (tx) {
+        // Brand New Table if it does not exist with two fields id & text
+        tx.executeSql("CREATE TABLE IF NOT EXISTS foo (datetime, psys, pdia, hrate)"); 
+        });
+
+function addData()
+{
+ for (i=1 ; i<10 ; i++) {
+ var day =(Math.floor(Math.random()*28)) ; 
+ var mon =(Math.floor(Math.random()*12)) ; 
+ var yer =(Math.floor(Math.random()*3)) + 2000 ; 
+ var hr =(Math.floor(Math.random()*24)) ; 
+ var mn =(Math.floor(Math.random()*59)) ; 
+ var sn =(Math.floor(Math.random()*59)) ; 
+ var psys =(Math.floor(Math.random()*29)) + 120 ; 
+ var pdia =(Math.floor(Math.random()*20)) + 80 ; 
+ var hrate =(Math.floor(Math.random()*10)) + 60 ; 
+ var d = new Date(yer, mon, day, hr, mn, sn, 0);
+ addRow(d.valueOf(), psys, pdia, hrate);
+} // end loop
+} // end data
+
+function cdate(secs)
+{
+// Returns Date in string 
+ var d = new Date() ;
+ d.setTime(secs);
+ var curr_date = d.getDate();
+ var curr_month = d.getMonth();
+ curr_month++; // getMonth returns 0 to 11
+ var curr_year = d.getFullYear();
+ return (curr_date + "-" + curr_month + "-" + curr_year);
+}
+
+function ctime(secs)
+{
+// Return time string
+ var d = new Date();
+ d.setTime(secs);
+ return ( d.getHours() + ":" + d.getMinutes() );
+}
+//================================================
+function clearDatabase(){
+db.transaction(function (tx) {
+        tx.executeSql("DROP TABLE foo");
+       });
+}
+//================================================
+
+//================================================
+function addRow(datetime, psys, pdia, hrate){
+//================================================
+        // Add a row with values 1 and CAT ...note arguments to VALUES are constants
+        //tx.executeSql('INSERT INTO foo (id, text) VALUES (1, "CAT")');
+        // Add another row now with external variables as our inputs
+ db.transaction(function (tx) {   
+          tx.executeSql('INSERT INTO foo (datetime, psys, pdia, hrate) VALUES (?,?,?,?)',
+                                 [datetime, psys, pdia, hrate]);    
+         });
+} // end addRow
+
+//================================================
+function getData(){
+//================================================
+db.transaction(function (tx) {
+  // This is how we retrieve info from db
+         tx.executeSql('SELECT * FROM foo ORDER BY datetime', [], process); // end sql
+        }); // end transaction 
+} // end getData
+
+function process (tx, results) {
+                              var len = results.rows.length; 
+                              var i, astr="";
+			      console.log("No. of Data Points = " + len) ;
+                              for (i = 0; i < len; i++) {
+                                var row = results.rows.item(i) ; 
+                                var d = new Date(); d.setTime(row.datetime) ;
+                                //astr +=  String(d.getFullYear()) + " "
+                                astr +=  d + " "
+                                +row.psys + " " 
+                                +row.pdia + " " 
+                                +row.hrate + "\n";
+                              } // endloop
+                                  //document.getElementById("data").innerHTML = astr ;
+                                console.log(astr) ;
+				  plotme(results) ;
+}
+//===============================================
+//Proof of concept that functions are objects
+//===============================================
+//function xxx()
+//{
+//   this.z = 123 ;
+//   this.doit = function (ans) { alert(ans); }
+//}
+//p = new xxx() ; p.doit("mmm");
+//alert(p.z);
+//=================================================
+
+function init() {// we will call it onload 
+  var canvas = document.getElementById('graph');
+  var ctx = canvas.getContext('2d');
+  canvas.addEventListener("mousemove", mouseXY, false);
+  addData() ;
+}
+
+function mouseXY(e){
+  if (!e) {
+           //var e = event ;
+	   // console.log("event was null \n") ;
+          }
+   var canvas = e.srcElement ; //document.getElementById('graph');
+  //console.log(e.srcElement) ;
+  //console.log((e.pageX - canvas.offsetLeft) + ":" + (e.pageY - canvas.offsetTop));
+  // console.log(e.offsetX + "::" + e.offsetY); These two are equivalent
+  var ctx = canvas.getContext('2d');
+  var width = canvas.width ;
+  var height = canvas.height ;
+
+
+}
+
+function draw_point(ctx,x,y,r,color)
+{
+      ctx.beginPath();
+      ctx.arc(x, y, r, 0, 2 * Math.PI, false);
+      ctx.fillStyle = color;
+      ctx.fill();
+      ctx.lineWidth = 2;
+      ctx.strokeStyle = '#003300';
+      ctx.stroke();
+}
+
+function draw_text(ctx){
+	ctx.beginPath();
+	ctx.fillStyle="blue" ;
+	ctx.font = "italic bold 30px arial" ;
+	ctx.fillText(txt, x, y) ;
+	ctx.stroke();
+}
+
+function draw_rect(ctx, x, y, w, h){
+	ctx.beginPath();
+	ctx.shadowOffsetX = 5 ;
+	ctx.shadowOffsetY = 5 ;
+	ctx.shadowBlur = 10 ;
+	ctx.shadowColor = "DarkGoldenRod" ;
+	ctx.fillStyle = "Gold" ;
+	ctx.fillRect(x,y,w,h);
+	ctx.stroke();
+}
+
+
+function plotme(qdata)
+{
+  var canvas = document.getElementById('graph');
+  var ctx = canvas.getContext('2d');
+  ctx.lineWidth = 3 ;
+  var lt = ctx.lineWidth ;
+  var width = canvas.width ;
+  var height = canvas.height ;
+  draw_rect(ctx, lt/2, lt/2, width-lt, height-lt);
+  
+  var min_date = qdata.rows.item(0).datetime  ;
+  var max_date = qdata.rows.item(qdata.rows.length-1).datetime ;
+  
+
+ 
+	   var len = qdata.rows.length; 
+           var i;
+           for (i = 0; i < len; i++) {
+                      var row = qdata.rows.item(i) ; 
+                      var x = width * (row.datetime - min_date) / (max_date - min_date) ;
+                      var y = -height * (row.psys - min_psys) / (max_psys - min_psys) + height;
+
+ 	        	draw_point(ctx,x,y,5,'green') ;                   
+                        y = -height * (row.pdia - min_pdia) / (max_pdia - min_pdia) + height;
+			draw_point(ctx,x,y,5,'red') ;
+            
+               }
+}
+
+</script>
+<body onload="init();">
+
+<form id="myform">
+	<table border=4>
+		  <th align="center" colspan="2">Blood Pressure Data</th>
+		  <tr><td width=60%>Systolic (kPa)</td>
+		    <td><input id="box" type="text" name="psys" value="120" /> </td>
+		  </tr>
+		  <tr><td>Diastolic (kPa)</td>
+		    <td><input id="box" type="text" name="pdia" value="80" /></td>
+		  </tr>
+		  <tr><td>Pulse (count/min)</td>
+		    <td><input id="box" type="text" name="pulse" value="65" /></td>
+		  </tr>
+		  <tr><td align="center" colspan="2">
+		    <INPUT type="button" value="add" onclick="addData()" ontap="addData()" />
+		    <INPUT type="button" value="show" onclick="getData()" ontap="getData()" /></td>
+		  </tr>
+	</table>
+</form>
+
+<canvas id="graph" width=450px height=300px on>
+</canvas>
+
+<div id="data" >
+</div>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+After marathon struggle with programming a pic
+with software serial comm. implementaion, ...
++ using USB serial converter cable ....
+        
+Modified BP monitor internals to access the
+SPI chip and control it independantly
+
+Now it is time to use USB/Serial cable to
+communicate with SPI chip.
+
+

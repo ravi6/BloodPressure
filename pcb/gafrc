@@ -1,3 +1,4 @@
 (component-library "./symbols") 
+(component-library "./packages") 
 (promote-invisible "enabled")
 

@@ -1,14 +1,12 @@
-+3/3V	U115-1 
-unnamed_net45	U115-11 
-unnamed_net44	U110-11 U114-9 
-unnamed_net43	U109-10 U113-7 
-unnamed_net42	U108-4 U112-5 
-+3.3V	U114-1 U113-1 U112-1 U111-1 CONN5-7 
-unnamed_net41	U115-12 CONN4-5 
-unnamed_net40	U114-10 CONN4-4 
-unnamed_net39	U113-6 CONN4-3 
-unnamed_net38	U112-4 CONN4-2 
-unnamed_net37	U111-2 CONN4-1 
+unnamed_net44	U115-11 
+unnamed_net43	U?-5 U114-10 
+unnamed_net42	U110-11 U114-9 
+unnamed_net41	U?-6 U113-6 
+unnamed_net40	U109-10 U113-7 
+unnamed_net39	U?-7 U112-4 
+unnamed_net38	U108-4 U112-5 
++3.3V	C2-2 U?-2 U?-31 U115-1 U114-1 U113-1 U112-1 U111-1 
+unnamed_net37	U?-8 U111-2 
 unnamed_net36	U111-3 U107-3 
 unnamed_net35	CONN1-4 R105-2 
 unnamed_net34	CONN1-3 R104-2 
@@ -22,7 +20,7 @@ unnamed_net27	CONN2-4 U106-12
 unnamed_net26	CONN2-3 U106-15 
 unnamed_net25	CONN2-2 U106-14 
 unnamed_net24	CONN2-1 U106-13 
-unnamed_net23	CONN4-6 U106-6 
+unnamed_net23	U?-14 U106-6 
 unnamed_net22	CONN3-8 U105-4 
 unnamed_net21	CONN3-7 U105-2 
 unnamed_net20	CONN3-6 U105-5 
@@ -31,19 +29,19 @@ unnamed_net18	CONN3-4 U105-12
 unnamed_net17	CONN3-3 U105-15 
 unnamed_net16	CONN3-2 U105-14 
 unnamed_net15	CONN3-1 U105-13 
-unnamed_net14	CONN4-7 U105-6 
+unnamed_net14	U?-15 U105-6 
 unnamed_net13	R110-2 U106-3 U105-3 
-unnamed_net12	CONN4-8 U106-9 U105-9 
-unnamed_net11	CONN5-1 U106-10 U105-10 
-unnamed_net10	CONN5-2 U106-11 U105-11 
+unnamed_net12	U?-2 U106-9 U105-9 
+unnamed_net11	U?-3 U106-10 U105-10 
+unnamed_net10	U?-4 U106-11 U105-11 
 unnamed_net9	U110-12 R109-1 U104-14 
 unnamed_net8	R109-2 R105-1 U104-13 
 unnamed_net7	U109-8 R108-1 U103-8 
 unnamed_net6	R108-2 R104-1 U103-9 
 unnamed_net5	U108-5 R107-1 U102-7 
 unnamed_net4	R107-2 R103-1 U102-6 
-+5V	U110-14 U109-14 U108-14 CONN5-8 U107-14 U106-16 U105-16 U101-4 
-GND	U115-8 U110-7 U109-7 U108-7 U114-8 U113-8 U112-8 U111-8 CONN5-6 U107-7 U110-13 U109-9 U108-6 U107-2 R110-1 R101-2 U106-7 U106-8 U105-7 U105-8 U101-11 
++5V	C1-2 U?-3 U110-14 U109-14 U108-14 U107-14 U106-16 U105-16 U101-4 
+GND	C1-1 C2-1 U?-32 U?-1 U115-8 U110-7 U109-7 U108-7 U114-8 U113-8 U112-8 U111-8 U107-7 U110-13 U109-9 U108-6 U107-2 R101-1 U106-7 U106-8 U105-7 U105-8 U101-11 
 unnamed_net3	U107-1 R106-1 U101-1 
 unnamed_net2	R106-2 R102-1 U101-2 
-unnamed_net1	R101-1 U102-5 U104-12 U103-10 U101-3 
+unnamed_net1	R110-1 R101-2 U102-5 U104-12 U103-10 U101-3 
