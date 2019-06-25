@@ -1,4 +1,5 @@
 (component-library "./symbols") 
-(component-library "./packages") 
+(component-library "./packages")
+(component-library "/usr/share/pcb/pcblib-newlib/geda")
 (promote-invisible "enabled")
 
