@@ -9,7 +9,7 @@ footprint=DIP14
 T 41725 45950 5 10 0 0 0 0 1
 slot=1
 T 40700 46400 5 10 1 1 0 0 1
-refdes=U101
+refdes=U1
 }
 C 40500 43900 1 0 0 lm324-1.sym
 {
@@ -19,8 +19,8 @@ T 40500 43900 5 10 0 0 0 0 1
 footprint=DIP14
 T 41725 44350 5 10 0 0 0 0 1
 slot=2
-T 40700 44800 5 10 0 1 0 0 1
-refdes=U102
+T 40700 44800 5 10 1 1 0 0 1
+refdes=U1
 }
 C 40600 42300 1 0 0 lm324-1.sym
 {
@@ -30,8 +30,8 @@ T 40600 42300 5 10 0 0 0 0 1
 footprint=DIP14
 T 41825 42750 5 10 0 0 0 0 1
 slot=3
-T 40800 43200 5 10 0 1 0 0 1
-refdes=U103
+T 40800 43200 5 10 1 1 0 0 1
+refdes=U1
 }
 C 40600 40700 1 0 0 lm324-1.sym
 {
@@ -42,7 +42,7 @@ footprint=DIP14
 T 41825 41150 5 10 0 0 0 0 1
 slot=4
 T 40800 41600 5 10 1 1 0 0 1
-refdes=U104
+refdes=U1
 }
 C 52200 46400 1 270 1 4051-1.sym
 {
@@ -226,7 +226,7 @@ Omeron LCD display signal Processor
 T 50500 40400 9 10 1 0 0 0 1
 bp.sch
 T 54300 40400 9 10 1 0 0 0 1
-7
+8
 T 54200 40100 9 10 1 0 0 0 1
 Ravi Saripalli
 C 44600 45800 1 0 0 7486-1.sym
@@ -238,7 +238,7 @@ footprint=DIP14
 T 45300 46900 5 10 0 0 0 0 1
 slot=1
 T 44900 46700 5 10 1 1 0 0 1
-refdes=U107
+refdes=U2
 T 45300 47300 5 10 0 0 0 0 1
 slotdef=1:1,2,3
 T 45300 47500 5 10 0 0 0 0 1
@@ -377,7 +377,7 @@ slotdef=5:11,12
 T 47600 47700 5 10 0 0 0 0 1
 slotdef=6:14,15
 T 46200 46700 5 10 1 1 0 0 1
-refdes=U111
+refdes=U3
 T 47600 48100 5 10 0 0 0 0 1
 description=6 buffers
 T 47600 48300 5 10 0 0 0 0 1
@@ -414,7 +414,7 @@ slotdef=5:11,12
 T 47600 46300 5 10 0 0 0 0 1
 slotdef=6:14,15
 T 46200 45300 5 10 1 1 0 0 1
-refdes=U112
+refdes=U3
 T 47600 46700 5 10 0 0 0 0 1
 description=6 buffers
 T 47600 46900 5 10 0 0 0 0 1
@@ -452,7 +452,7 @@ slotdef=5:11,12
 T 47600 45000 5 10 0 0 0 0 1
 slotdef=6:14,15
 T 46200 44000 5 10 1 1 0 0 1
-refdes=U113
+refdes=U3
 T 47600 45400 5 10 0 0 0 0 1
 description=6 buffers
 T 47600 45600 5 10 0 0 0 0 1
@@ -489,7 +489,7 @@ slotdef=5:11,12
 T 47600 43600 5 10 0 0 0 0 1
 slotdef=6:14,15
 T 46200 42600 5 10 1 1 0 0 1
-refdes=U114
+refdes=U3
 T 47600 44000 5 10 0 0 0 0 1
 description=6 buffers
 T 47600 44200 5 10 0 0 0 0 1
@@ -515,7 +515,7 @@ footprint=DIP14
 T 45300 45500 5 10 0 0 0 0 1
 slot=2
 T 44900 45300 5 10 1 1 0 0 1
-refdes=U108
+refdes=U2
 T 45300 45900 5 10 0 0 0 0 1
 slotdef=1:1,2,3
 T 45300 46100 5 10 0 0 0 0 1
@@ -536,7 +536,7 @@ footprint=DIP14
 T 45300 44200 5 10 0 0 0 0 1
 slot=3
 T 44900 44000 5 10 1 1 0 0 1
-refdes=U109
+refdes=U2
 T 45300 44600 5 10 0 0 0 0 1
 slotdef=1:1,2,3
 T 45300 44800 5 10 0 0 0 0 1
@@ -557,7 +557,7 @@ footprint=DIP14
 T 45300 42800 5 10 0 0 0 0 1
 slot=4
 T 44900 42600 5 10 1 1 0 0 1
-refdes=U110
+refdes=U2
 T 45300 43200 5 10 0 0 0 0 1
 slotdef=1:1,2,3
 T 45300 43400 5 10 0 0 0 0 1
@@ -704,3 +704,109 @@ footprint=RCY100
 T 61600 50500 5 10 0 0 0 0 1
 value=33uF
 }
+C 59100 41600 1 0 0 4050-1.sym
+{
+T 60800 44300 5 10 0 0 0 0 1
+slot=5
+T 60800 43700 5 10 0 0 0 0 1
+net=VDD:1
+T 60800 41700 5 10 0 0 0 0 1
+net=VSS:8
+T 60800 41900 5 10 0 0 0 0 1
+device=4050
+T 60800 42100 5 10 0 0 0 0 1
+footprint=DIP16
+T 60800 42300 5 10 0 0 0 0 1
+numslots=6
+T 60800 42500 5 10 0 0 0 0 1
+slotdef=1:3,2
+T 60800 42700 5 10 0 0 0 0 1
+slotdef=2:5,4
+T 60800 42900 5 10 0 0 0 0 1
+slotdef=3:7,6
+T 60800 43100 5 10 0 0 0 0 1
+slotdef=4:9,10
+T 60800 43300 5 10 0 0 0 0 1
+slotdef=5:11,12
+T 60800 43500 5 10 0 0 0 0 1
+slotdef=6:14,15
+T 59400 42500 5 10 1 1 0 0 1
+refdes=U3
+T 60800 43900 5 10 0 0 0 0 1
+description=6 buffers
+T 60800 44100 5 10 0 0 0 0 1
+documentation=http://www.semiconductors.philips.com/acrobat/datasheets/HEF4050B_CNV_3.pdf
+T 60800 43700 5 10 0 0 0 0 1
+net=+3.3V:1
+T 60800 41700 5 10 0 0 0 0 1
+net=GND:8
+}
+N 60300 42100 61500 42100 4
+N 61500 42100 61500 44200 4
+N 61500 44200 61100 44200 4
+C 59100 40400 1 0 0 4050-1.sym
+{
+T 60800 43100 5 10 0 0 0 0 1
+slot=6
+T 60800 42500 5 10 0 0 0 0 1
+net=VDD:1
+T 60800 40500 5 10 0 0 0 0 1
+net=VSS:8
+T 60800 40700 5 10 0 0 0 0 1
+device=4050
+T 60800 40900 5 10 0 0 0 0 1
+footprint=DIP16
+T 60800 41100 5 10 0 0 0 0 1
+numslots=6
+T 60800 41300 5 10 0 0 0 0 1
+slotdef=1:3,2
+T 60800 41500 5 10 0 0 0 0 1
+slotdef=2:5,4
+T 60800 41700 5 10 0 0 0 0 1
+slotdef=3:7,6
+T 60800 41900 5 10 0 0 0 0 1
+slotdef=4:9,10
+T 60800 42100 5 10 0 0 0 0 1
+slotdef=5:11,12
+T 60800 42300 5 10 0 0 0 0 1
+slotdef=6:14,15
+T 59400 41300 5 10 1 1 0 0 1
+refdes=U3
+T 60800 42700 5 10 0 0 0 0 1
+description=6 buffers
+T 60800 42900 5 10 0 0 0 0 1
+documentation=http://www.semiconductors.philips.com/acrobat/datasheets/HEF4050B_CNV_3.pdf
+T 60800 42500 5 10 0 0 0 0 1
+net=+3.3V:1
+T 60800 40500 5 10 0 0 0 0 1
+net=GND:8
+}
+N 60100 40900 61800 40900 4
+N 61800 40900 61800 44500 4
+N 61800 44500 61100 44500 4
+C 57400 40700 1 0 0 connector2-1.sym
+{
+T 57600 41700 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 57400 41500 5 10 1 1 0 0 1
+refdes=CONN?
+T 57600 41900 5 10 0 0 0 0 1
+pins=2
+T 57600 42100 5 10 0 0 0 0 1
+class=IO
+T 57400 40700 5 12 0 0 0 0 1
+footprint=CONNECTOR 1 2
+}
+N 59100 41200 59100 42100 4
+T 60600 40500 9 12 1 0 0 0 1
+Pump Status
+T 60100 41700 9 12 1 0 0 0 1
+Read Button
+T 41100 39400 9 12 1 0 0 0 1
+U1 - C0 and Segment Signal Summer
+T 46500 39200 9 12 1 0 0 0 2
+U2 - Convert to digital signal with XOR
+           (why XOR ... just because we had it)
+T 52900 39200 9 12 1 0 0 0 2
+U3 - Using CMOS buffer (3.3v) to shift
+          digital signal level to 3.3v
