@@ -1,0 +1,4 @@
+# This is how we generate spice.cir
+# 
+gnetlist -g spice-sdb -o spice.cir x.sch
+ngspice spice.cir

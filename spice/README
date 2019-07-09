@@ -1,0 +1,13 @@
+
+This is an attempt to see the behaviour of 
+level shifter when 5V TTL logic chips output
+is fed to 3.3V CMOS chip.
+It proved to be hard to get all of spice directives
+from schematic. 
+So initially used the netlist from schematic.
+The spice net produced is heavily modified especially
+for the Mosfet. 
+Took a while to understand how spice works.
+Tried arbitray digital signal cycle with piece wise linear
+voltage source. First cycle works well, but second cycle
+rise/fall times don't agree why???
