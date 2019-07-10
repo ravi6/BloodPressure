@@ -1,8 +1,8 @@
 * .ac dec 10 1 10K
-.tran 0ms 200ms 
+.tran 0.1ms 220ms 
 * This directive enables to use  NMOS model
-.model MOSN NMOS level=8 version=3.3.0
+* .model MOSN NMOS level=8 version=3.3.0
 .control
 run
-save Vout, Vin
+plot Vout Vin
 .endc

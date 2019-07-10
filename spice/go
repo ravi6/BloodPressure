@@ -1,4 +1,4 @@
-# This is how we generate spice.cir
-# 
-gnetlist -g spice-sdb -o spice.cir x.sch
-ngspice spice.cir
+# This is how we generate spice.net
+#  and run ngspice
+gnetlist -g spice-sdb -o spice.net x.sch
+ngspice spice.net
