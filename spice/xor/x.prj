@@ -1,0 +1,3 @@
+schematics x.sch
+elements-dir /usr/share/pcb
+output-name x
