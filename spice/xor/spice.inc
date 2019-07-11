@@ -4,5 +4,5 @@
 * .model MOSN NMOS level=8 version=3.3.0
 .control
 run
-plot Vout Vin
+plot A, B, C
 .endc
