@@ -11,3 +11,20 @@ Took a while to understand how spice works.
 Tried arbitray digital signal cycle with piece wise linear
 voltage source. First cycle works well, but second cycle
 rise/fall times don't agree why???
+
+Well that is because I was setting time step to zero instead
+of some finite value in .trans directive. I thought it was
+initial time. The first parameter is time step, second end time.
+
+Anway after a lot mucking around, figured the way to
+do everything from gschem. It is relatively straigth forward now
+that I know how to do it.
+
+The confusion was more with Mosfet. First refq should have M as
+starting. The type attribute tells something about the device type too.
+Model Name is the name given to the model when the generic model is given
+specific parameters. This then can be used with many of the instances of
+that device with the same model parameters. (Key point to rememeber)
+
+Model attribue is really .... single string where model parameters can
+be specified. 
