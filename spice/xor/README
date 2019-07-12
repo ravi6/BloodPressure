@@ -1,1 +1,5 @@
 Modelling XOR
+    Used xorChip data sheet that has the detail of 
+internal component configuration.
+Simulation confirmed XOR operation.
+Worthwhile exercise. 
