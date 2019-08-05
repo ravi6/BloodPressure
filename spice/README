@@ -28,3 +28,14 @@ that device with the same model parameters. (Key point to rememeber)
 
 Model attribue is really .... single string where model parameters can
 be specified. 
+
+Finally got Opamp model ticking. One from Texas insturments and other
+from unknown source. TI one needed some fancy switches in ngspice 
+initfile to make it work. But in the end it was all worth it. What it showed
+was when opamp input signal move to negative rail, when opamp is only
+powered by single rail (positive Vcc, and gnd), the difference of 
+input to output will not be clipped as one would expect instead it will
+produce a feed back that gives unexpected positive output from opamp.
+
+This explains why we are seeing some new peaks in our circuit.
+
