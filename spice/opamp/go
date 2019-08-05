@@ -1,0 +1,4 @@
+# This is how we generate spice.net
+#  and run ngspice
+gnetlist  -g spice-sdb -o spice.net x.sch
+ngspice spice.net
