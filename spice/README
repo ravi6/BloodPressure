@@ -39,3 +39,14 @@ produce a feed back that gives unexpected positive output from opamp.
 
 This explains why we are seeing some new peaks in our circuit.
 
+I am not sure any more. DId more experiments with ngspice. Closer examination
+revealed that our Control and segment signal voltages should be positive with 
+maximum voltage (VLC) at 2V.  However, the difference voltage that determines
+if segment is lit or not (VLCD) swings from positive to negativea. (-2 to 2v)
+
+Fed the COM0 and SEG10 signals as shown in the manual to the OPAMP, initially
+with COM0 on nonInverting end, and SEG10 and inverting end. Compared that with
+switching the inputs to OPAMP circuit, I could see that there won't be any ficticious
+peaks. So the problem is else where.
+
+
