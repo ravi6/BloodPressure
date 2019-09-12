@@ -609,7 +609,7 @@ numslots=0
 T 58500 48400 5 10 1 1 0 0 1
 value=OMEGA2
 T 58100 43400 5 10 0 0 0 0 1
-footprint=onion
+footprint=omega2
 T 58100 43400 5 10 1 0 0 0 1
 net=GND:1
 T 58100 43400 5 10 1 0 0 0 1

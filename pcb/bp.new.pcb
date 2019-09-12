@@ -1,0 +1,85 @@
+# release: pcb 1.99x
+# To read pcb files, the pcb version (or the cvs source date) must be >= the file version
+FileVersion[20070407]
+PCB["" 600000 500000]
+Grid[10000.000000 0 0 0]
+Cursor[0 0 0.000000]
+PolyArea[200000000.000000]
+Thermal[0.500000]
+DRC[1000 1000 1000 1000 1500 1000]
+Flags("nameonpcb,uniquename,clearnew,snappin")
+Groups("1,c:2:3:4:5:6,s:7:8")
+Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
+Element["" "onion" "U200" "OMEGA2" 0 0 0.0000 0.0000 0 100 ""]
+(
+	Pin[-120.00mil 59.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "1" ""]
+	Pin[841.00mil 59.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "32" ""]
+	Pin[-120.00mil 138.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "2" ""]
+	Pin[841.00mil 138.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "31" ""]
+	Pin[-120.00mil 217.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "3" ""]
+	Pin[841.00mil 217.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "30" ""]
+	Pin[-120.00mil 296.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "4" ""]
+	Pin[841.00mil 296.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "29" ""]
+	Pin[-120.00mil 375.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "5" ""]
+	Pin[841.00mil 375.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "28" ""]
+	Pin[-120.00mil 454.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "6" ""]
+	Pin[841.00mil 454.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "27" ""]
+	Pin[-120.00mil 533.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "7" ""]
+	Pin[841.00mil 533.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "26" ""]
+	Pin[-120.00mil 612.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "8" ""]
+	Pin[841.00mil 612.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "25" ""]
+	Pin[-120.00mil 691.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "9" ""]
+	Pin[841.00mil 691.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "24" ""]
+	Pin[-120.00mil 770.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "10" ""]
+	Pin[841.00mil 770.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "23" ""]
+	Pin[-120.00mil 849.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "11" ""]
+	Pin[841.00mil 849.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "22" ""]
+	Pin[-120.00mil 928.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "12" ""]
+	Pin[841.00mil 928.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "21" ""]
+	Pin[-120.00mil 1007.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "13" ""]
+	Pin[841.00mil 1007.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "20" ""]
+	Pin[-120.00mil 1086.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "14" ""]
+	Pin[841.00mil 1086.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "19" ""]
+	Pin[-120.00mil 1165.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "15" ""]
+	Pin[841.00mil 1165.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "18" ""]
+	Pin[-120.00mil 1244.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "16" ""]
+	Pin[841.00mil 1244.00mil 60.00mil 30.00mil 60.00mil 28.00mil "" "17" ""]
+	ElementLine[-160.00mil 1300.00mil -20.00mil 1440.00mil 10.00mil]
+	ElementLine[-20.00mil 1440.00mil 880.00mil 1440.00mil 10.00mil]
+	ElementLine[-70.00mil -100.00mil 800.00mil -100.00mil 10.00mil]
+	ElementLine[-160.00mil -10.00mil -70.00mil -100.00mil 10.00mil]
+	ElementLine[880.00mil -20.00mil 880.00mil 1440.00mil 10.00mil]
+	ElementLine[800.00mil -100.00mil 880.00mil -20.00mil 10.00mil]
+	ElementLine[-160.00mil -10.00mil -160.00mil 1300.00mil 10.00mil]
+	ElementLine[-160.00mil 1300.00mil -150.00mil 1310.00mil 10.00mil]
+	)
+Layer(1 "top")
+(
+)
+Layer(2 "ground")
+(
+)
+Layer(3 "signal2")
+(
+)
+Layer(4 "signal3")
+(
+)
+Layer(5 "power")
+(
+)
+Layer(6 "bottom")
+(
+)
+Layer(7 "outline")
+(
+)
+Layer(8 "spare")
+(
+)
+Layer(9 "silk")
+(
+)
+Layer(10 "silk")
+(
+)
