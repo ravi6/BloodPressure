@@ -13,8 +13,8 @@ ChangePinName(C1, 2, 2)
 ChangePinName(C1, 1, 1)
 
 # Start of element U300
-ChangePinName(U300, 1, GND)
-ChangePinName(U300, 3, Vin)
+ChangePinName(U300, 2, Vout)
+ChangePinName(U300, 1, Vin)
 ChangePinName(U300, 2, Vout)
 
 # Start of element U200

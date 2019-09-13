@@ -238,7 +238,7 @@ Omeron LCD display signal Processor
 T 50500 40400 9 10 1 0 0 0 1
 bp.sch
 T 54300 40400 9 10 1 0 0 0 1
-9
+10
 T 54200 40100 9 10 1 0 0 0 1
 Ravi Saripalli
 C 44600 45800 1 0 0 7486-1.sym
