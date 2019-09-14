@@ -1,8 +1,12 @@
 # Pin name action command file
 
-# Start of element CONN?
-ChangePinName(CONN?, 1, 1)
-ChangePinName(CONN?, 2, 2)
+# Start of element CONN5
+ChangePinName(CONN5, 1, 1)
+ChangePinName(CONN5, 2, 2)
+
+# Start of element CONN4
+ChangePinName(CONN4, 1, 1)
+ChangePinName(CONN4, 2, 2)
 
 # Start of element C2
 ChangePinName(C2, 2, 2)
@@ -13,9 +17,9 @@ ChangePinName(C1, 2, 2)
 ChangePinName(C1, 1, 1)
 
 # Start of element U300
-ChangePinName(U300, 2, Vout)
+ChangePinName(U300, 2, GND)
 ChangePinName(U300, 1, Vin)
-ChangePinName(U300, 2, Vout)
+ChangePinName(U300, 3, Vout)
 
 # Start of element U200
 ChangePinName(U200, 20, D18)
