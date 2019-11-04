@@ -1,0 +1,2282 @@
+# release: pcb 4.2.0
+
+# To read pcb files, the pcb version (or the git source date) must be >= the file version
+FileVersion[20091103]
+
+PCB["" 130.0000mm 50.0000mm]
+
+Grid[0.1000mm 0.0790mm 0.0690mm 1]
+PolyArea[200000000.000000]
+Thermal[0.500000]
+DRC[0.2500mm 10.00mil 10.00mil 10.00mil 15.00mil 10.00mil]
+Flags("showdrc,rubberband,nameonpcb,autodrc,uniquename,clearnew")
+Groups("1,c:2,3,s")
+Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,0.6101mm,0.3000mm,6.00mil"]
+Symbol[' ' 18.00mil]
+(
+)
+Symbol['!' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 0.0000 35.00mil 8.00mil]
+)
+Symbol['"' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 20.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 10.00mil 20.00mil 8.00mil]
+)
+Symbol['#' 12.00mil]
+(
+	SymbolLine[0.0000 35.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 20.00mil 25.00mil 8.00mil]
+	SymbolLine[15.00mil 20.00mil 15.00mil 40.00mil 8.00mil]
+	SymbolLine[5.00mil 20.00mil 5.00mil 40.00mil 8.00mil]
+)
+Symbol['$' 12.00mil]
+(
+	SymbolLine[15.00mil 15.00mil 20.00mil 20.00mil 8.00mil]
+	SymbolLine[5.00mil 15.00mil 15.00mil 15.00mil 8.00mil]
+	SymbolLine[0.0000 20.00mil 5.00mil 15.00mil 8.00mil]
+	SymbolLine[0.0000 20.00mil 0.0000 25.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[15.00mil 45.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[5.00mil 45.00mil 15.00mil 45.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 5.00mil 45.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['%' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 0.0000 20.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 10.00mil 10.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 15.00mil 15.00mil 8.00mil]
+	SymbolLine[15.00mil 15.00mil 15.00mil 20.00mil 8.00mil]
+	SymbolLine[10.00mil 25.00mil 15.00mil 20.00mil 8.00mil]
+	SymbolLine[5.00mil 25.00mil 10.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 20.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 40.00mil 10.00mil 8.00mil]
+	SymbolLine[35.00mil 50.00mil 40.00mil 45.00mil 8.00mil]
+	SymbolLine[40.00mil 40.00mil 40.00mil 45.00mil 8.00mil]
+	SymbolLine[35.00mil 35.00mil 40.00mil 40.00mil 8.00mil]
+	SymbolLine[30.00mil 35.00mil 35.00mil 35.00mil 8.00mil]
+	SymbolLine[25.00mil 40.00mil 30.00mil 35.00mil 8.00mil]
+	SymbolLine[25.00mil 40.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[25.00mil 45.00mil 30.00mil 50.00mil 8.00mil]
+	SymbolLine[30.00mil 50.00mil 35.00mil 50.00mil 8.00mil]
+)
+Symbol['&' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 25.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 15.00mil 20.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 10.00mil 10.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 15.00mil 15.00mil 8.00mil]
+	SymbolLine[15.00mil 15.00mil 15.00mil 20.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+)
+Symbol[''' 12.00mil]
+(
+	SymbolLine[0.0000 20.00mil 10.00mil 10.00mil 8.00mil]
+)
+Symbol['(' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+)
+Symbol[')' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 5.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 15.00mil 5.00mil 45.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 5.00mil 45.00mil 8.00mil]
+)
+Symbol['*' 12.00mil]
+(
+	SymbolLine[0.0000 20.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 20.00mil 20.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 20.00mil 10.00mil 40.00mil 8.00mil]
+)
+Symbol['+' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 20.00mil 10.00mil 40.00mil 8.00mil]
+)
+Symbol[',' 12.00mil]
+(
+	SymbolLine[0.0000 60.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['-' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 20.00mil 30.00mil 8.00mil]
+)
+Symbol['.' 12.00mil]
+(
+	SymbolLine[0.0000 50.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['/' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 30.00mil 15.00mil 8.00mil]
+)
+Symbol['0' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 20.00mil 20.00mil 8.00mil]
+)
+Symbol['1' 12.00mil]
+(
+	SymbolLine[0.0000 18.00mil 8.00mil 10.00mil 8.00mil]
+	SymbolLine[8.00mil 10.00mil 8.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 15.00mil 50.00mil 8.00mil]
+)
+Symbol['2' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[25.00mil 15.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 25.00mil 50.00mil 8.00mil]
+)
+Symbol['3' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 28.00mil 15.00mil 28.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 23.00mil 8.00mil]
+	SymbolLine[20.00mil 33.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 33.00mil 15.00mil 28.00mil 8.00mil]
+	SymbolLine[20.00mil 23.00mil 15.00mil 28.00mil 8.00mil]
+)
+Symbol['4' 12.00mil]
+(
+	SymbolLine[0.0000 35.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 25.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['5' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 0.0000 30.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[5.00mil 25.00mil 15.00mil 25.00mil 8.00mil]
+	SymbolLine[15.00mil 25.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['6' 12.00mil]
+(
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 28.00mil 20.00mil 33.00mil 8.00mil]
+	SymbolLine[0.0000 28.00mil 15.00mil 28.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 33.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['7' 12.00mil]
+(
+	SymbolLine[5.00mil 50.00mil 25.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 25.00mil 10.00mil 8.00mil]
+)
+Symbol['8' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 37.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 37.00mil 7.00mil 30.00mil 8.00mil]
+	SymbolLine[7.00mil 30.00mil 13.00mil 30.00mil 8.00mil]
+	SymbolLine[13.00mil 30.00mil 20.00mil 37.00mil 8.00mil]
+	SymbolLine[20.00mil 37.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 23.00mil 7.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 23.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 23.00mil 8.00mil]
+	SymbolLine[13.00mil 30.00mil 20.00mil 23.00mil 8.00mil]
+)
+Symbol['9' 12.00mil]
+(
+	SymbolLine[5.00mil 50.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 25.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+)
+Symbol[':' 12.00mil]
+(
+	SymbolLine[0.0000 25.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 35.00mil 8.00mil]
+)
+Symbol[';' 12.00mil]
+(
+	SymbolLine[0.0000 50.00mil 10.00mil 40.00mil 8.00mil]
+	SymbolLine[10.00mil 25.00mil 10.00mil 30.00mil 8.00mil]
+)
+Symbol['<' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 10.00mil 20.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 10.00mil 40.00mil 8.00mil]
+)
+Symbol['=' 12.00mil]
+(
+	SymbolLine[0.0000 25.00mil 20.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 20.00mil 35.00mil 8.00mil]
+)
+Symbol['>' 12.00mil]
+(
+	SymbolLine[0.0000 20.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 10.00mil 30.00mil 8.00mil]
+)
+Symbol['?' 12.00mil]
+(
+	SymbolLine[10.00mil 30.00mil 10.00mil 35.00mil 8.00mil]
+	SymbolLine[10.00mil 45.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 20.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 20.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 20.00mil 20.00mil 8.00mil]
+)
+Symbol['@' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 40.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 40.00mil 50.00mil 8.00mil]
+	SymbolLine[50.00mil 35.00mil 50.00mil 10.00mil 8.00mil]
+	SymbolLine[50.00mil 10.00mil 40.00mil 0.0000 8.00mil]
+	SymbolLine[40.00mil 0.0000 10.00mil 0.0000 8.00mil]
+	SymbolLine[10.00mil 0.0000 0.0000 10.00mil 8.00mil]
+	SymbolLine[15.00mil 20.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 30.00mil 35.00mil 8.00mil]
+	SymbolLine[30.00mil 35.00mil 35.00mil 30.00mil 8.00mil]
+	SymbolLine[35.00mil 30.00mil 40.00mil 35.00mil 8.00mil]
+	SymbolLine[35.00mil 30.00mil 35.00mil 15.00mil 8.00mil]
+	SymbolLine[35.00mil 20.00mil 30.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 30.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 15.00mil 20.00mil 8.00mil]
+	SymbolLine[40.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+)
+Symbol['A' 12.00mil]
+(
+	SymbolLine[0.0000 20.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 20.00mil 7.00mil 10.00mil 8.00mil]
+	SymbolLine[7.00mil 10.00mil 18.00mil 10.00mil 8.00mil]
+	SymbolLine[18.00mil 10.00mil 25.00mil 20.00mil 8.00mil]
+	SymbolLine[25.00mil 20.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 25.00mil 30.00mil 8.00mil]
+)
+Symbol['B' 12.00mil]
+(
+	SymbolLine[0.0000 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[25.00mil 33.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 28.00mil 25.00mil 33.00mil 8.00mil]
+	SymbolLine[5.00mil 28.00mil 20.00mil 28.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[25.00mil 15.00mil 25.00mil 23.00mil 8.00mil]
+	SymbolLine[20.00mil 28.00mil 25.00mil 23.00mil 8.00mil]
+)
+Symbol['C' 12.00mil]
+(
+	SymbolLine[7.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 43.00mil 7.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 17.00mil 0.0000 43.00mil 8.00mil]
+	SymbolLine[0.0000 17.00mil 7.00mil 10.00mil 8.00mil]
+	SymbolLine[7.00mil 10.00mil 20.00mil 10.00mil 8.00mil]
+)
+Symbol['D' 12.00mil]
+(
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[18.00mil 10.00mil 25.00mil 17.00mil 8.00mil]
+	SymbolLine[25.00mil 17.00mil 25.00mil 43.00mil 8.00mil]
+	SymbolLine[18.00mil 50.00mil 25.00mil 43.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 18.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 18.00mil 10.00mil 8.00mil]
+)
+Symbol['E' 12.00mil]
+(
+	SymbolLine[0.0000 28.00mil 15.00mil 28.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+)
+Symbol['F' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 28.00mil 15.00mil 28.00mil 8.00mil]
+)
+Symbol['G' 12.00mil]
+(
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[25.00mil 35.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 35.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+)
+Symbol['H' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[25.00mil 10.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 25.00mil 30.00mil 8.00mil]
+)
+Symbol['I' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 10.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['J' 12.00mil]
+(
+	SymbolLine[7.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 15.00mil 45.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 15.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 0.0000 40.00mil 8.00mil]
+)
+Symbol['K' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['L' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['M' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 30.00mil 10.00mil 8.00mil]
+	SymbolLine[30.00mil 10.00mil 30.00mil 50.00mil 8.00mil]
+)
+Symbol['N' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[25.00mil 10.00mil 25.00mil 50.00mil 8.00mil]
+)
+Symbol['O' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['P' 12.00mil]
+(
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[25.00mil 15.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+)
+Symbol['Q' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 35.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['R' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[25.00mil 15.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[13.00mil 30.00mil 25.00mil 50.00mil 8.00mil]
+)
+Symbol['S' 12.00mil]
+(
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 25.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 35.00mil 8.00mil]
+	SymbolLine[25.00mil 35.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['T' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['U' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['V' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 20.00mil 10.00mil 8.00mil]
+)
+Symbol['W' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 30.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[25.00mil 50.00mil 30.00mil 30.00mil 8.00mil]
+	SymbolLine[30.00mil 30.00mil 30.00mil 10.00mil 8.00mil]
+)
+Symbol['X' 12.00mil]
+(
+	SymbolLine[0.0000 50.00mil 25.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 25.00mil 50.00mil 8.00mil]
+)
+Symbol['Y' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['Z' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 25.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 25.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 25.00mil 50.00mil 8.00mil]
+)
+Symbol['[' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['\' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 30.00mil 45.00mil 8.00mil]
+)
+Symbol[']' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['^' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 10.00mil 15.00mil 8.00mil]
+)
+Symbol['_' 12.00mil]
+(
+	SymbolLine[0.0000 50.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['a' 12.00mil]
+(
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 45.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['b' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+)
+Symbol['c' 12.00mil]
+(
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['d' 12.00mil]
+(
+	SymbolLine[20.00mil 10.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+)
+Symbol['e' 12.00mil]
+(
+	SymbolLine[5.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[20.00mil 40.00mil 20.00mil 35.00mil 8.00mil]
+)
+Symbol['f' 10.00mil]
+(
+	SymbolLine[5.00mil 15.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 15.00mil 10.00mil 10.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 10.00mil 30.00mil 8.00mil]
+)
+Symbol['g' 12.00mil]
+(
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[0.0000 60.00mil 5.00mil 65.00mil 8.00mil]
+	SymbolLine[5.00mil 65.00mil 15.00mil 65.00mil 8.00mil]
+	SymbolLine[15.00mil 65.00mil 20.00mil 60.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 20.00mil 60.00mil 8.00mil]
+)
+Symbol['h' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['i' 10.00mil]
+(
+	SymbolLine[0.0000 20.00mil 0.0000 21.00mil 10.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 50.00mil 8.00mil]
+)
+Symbol['j' 10.00mil]
+(
+	SymbolLine[5.00mil 20.00mil 5.00mil 21.00mil 10.00mil]
+	SymbolLine[5.00mil 35.00mil 5.00mil 60.00mil 8.00mil]
+	SymbolLine[0.0000 65.00mil 5.00mil 60.00mil 8.00mil]
+)
+Symbol['k' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 10.00mil 25.00mil 8.00mil]
+)
+Symbol['l' 10.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['m' 12.00mil]
+(
+	SymbolLine[5.00mil 35.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
+	SymbolLine[25.00mil 30.00mil 30.00mil 30.00mil 8.00mil]
+	SymbolLine[30.00mil 30.00mil 35.00mil 35.00mil 8.00mil]
+	SymbolLine[35.00mil 35.00mil 35.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 35.00mil 8.00mil]
+)
+Symbol['n' 12.00mil]
+(
+	SymbolLine[5.00mil 35.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 35.00mil 8.00mil]
+)
+Symbol['o' 12.00mil]
+(
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['p' 12.00mil]
+(
+	SymbolLine[5.00mil 35.00mil 5.00mil 65.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 35.00mil 8.00mil]
+	SymbolLine[25.00mil 35.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 45.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['q' 12.00mil]
+(
+	SymbolLine[20.00mil 35.00mil 20.00mil 65.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['r' 12.00mil]
+(
+	SymbolLine[5.00mil 35.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 35.00mil 8.00mil]
+)
+Symbol['s' 12.00mil]
+(
+	SymbolLine[5.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 40.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 40.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 40.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 35.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['t' 10.00mil]
+(
+	SymbolLine[5.00mil 10.00mil 5.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 45.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 10.00mil 25.00mil 8.00mil]
+)
+Symbol['u' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['v' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['w' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 15.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 15.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 45.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[25.00mil 50.00mil 30.00mil 45.00mil 8.00mil]
+	SymbolLine[30.00mil 30.00mil 30.00mil 45.00mil 8.00mil]
+)
+Symbol['x' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 20.00mil 30.00mil 8.00mil]
+)
+Symbol['y' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 20.00mil 60.00mil 8.00mil]
+	SymbolLine[15.00mil 65.00mil 20.00mil 60.00mil 8.00mil]
+	SymbolLine[5.00mil 65.00mil 15.00mil 65.00mil 8.00mil]
+	SymbolLine[0.0000 60.00mil 5.00mil 65.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['z' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['{' 12.00mil]
+(
+	SymbolLine[5.00mil 15.00mil 10.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 15.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 5.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 45.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['|' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+)
+Symbol['}' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 5.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 15.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[5.00mil 25.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 5.00mil 45.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 5.00mil 45.00mil 8.00mil]
+)
+Symbol['~' 12.00mil]
+(
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 15.00mil 35.00mil 8.00mil]
+	SymbolLine[15.00mil 35.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
+)
+Attribute("PCB::grid::unit" "mm")
+Attribute("PCB::grid::size" "0.1000mm")
+Via[86.8875mm 31.7843mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+Via[97.0069mm 38.5947mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+Via[66.2224mm 21.8243mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+Via[88.2589mm 33.5877mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+Via[88.2589mm 27.6060mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+Via[98.5309mm 27.6060mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+Via[76.0925mm 6.3952mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+Via[72.6508mm 7.9192mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+Via[27.5510mm 28.3022mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+Via[32.7453mm 24.1103mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+Via[52.7360mm 19.6035mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+Via[57.5864mm 19.0955mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+Via[41.2797mm 13.8899mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+Via[41.6099mm 37.5721mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+Via[56.8254mm 31.9843mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+Via[68.1401mm 11.9835mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+Via[55.9237mm 35.1720mm 41.00mil 20.00mil 0.0000 20.00mil "" "auto"]
+
+Element["" "RCY100" "C1" "0.3uF" 8.1310mm 36.5145mm 17.00mil 3.3884mm 0 100 ""]
+(
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 30.00mil "1" "1" "square"]
+	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 30.00mil "2" "2" ""]
+	ElementArc [50.00mil 0.0000 100.00mil 100.00mil 0.000000 360.000000 10.00mil]
+
+	)
+
+Element["" "SIP4" "CONN1" "unknown" 21.2082mm 4.0736mm -50.00mil 50.00mil 0 100 ""]
+(
+	Attribute("device" "CONNECTOR_4")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "1" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "2" "2" "edge2"]
+	Pin[200.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "3" "3" "edge2"]
+	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "4" "4" "edge2"]
+	ElementLine [0.0000 50.00mil 300.00mil 50.00mil 20.00mil]
+	ElementLine [0.0000 -50.00mil 300.00mil -50.00mil 20.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementArc [0.0000 0.0000 50.00mil 50.00mil 270.000000 180.000000 20.00mil]
+	ElementArc [300.00mil 0.0000 50.00mil 50.00mil 90.000000 180.000000 20.00mil]
+
+	)
+
+Element["" "ACY500" "R108" "unknown" 29.5322mm 10.7352mm 2.8296mm 185.00mil 3 100 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 55.00mil 30.00mil 61.00mil 30.00mil "1" "1" "square"]
+	Pin[0.0000 500.00mil 55.00mil 30.00mil 61.00mil 30.00mil "2" "2" ""]
+	ElementLine [0.0000 0.0000 0.0000 125.00mil 10.00mil]
+	ElementLine [0.0000 375.00mil 0.0000 500.00mil 10.00mil]
+	ElementLine [41.00mil 125.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 375.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil -41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil 41.00mil 125.00mil 10.00mil]
+
+	)
+
+Element["" "ACY500" "R106" "unknown" 34.2185mm 10.6133mm 2.7356mm 4.6050mm 3 100 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 55.00mil 30.00mil 61.00mil 30.00mil "1" "1" "square"]
+	Pin[0.0000 500.00mil 55.00mil 30.00mil 61.00mil 30.00mil "2" "2" ""]
+	ElementLine [0.0000 0.0000 0.0000 125.00mil 10.00mil]
+	ElementLine [0.0000 375.00mil 0.0000 500.00mil 10.00mil]
+	ElementLine [41.00mil 125.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 375.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil -41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil 41.00mil 125.00mil 10.00mil]
+
+	)
+
+Element["" "ACY500" "R104" "unknown" 39.2985mm 10.6133mm 2.9235mm 166.50mil 3 100 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 55.00mil 30.00mil 61.00mil 30.00mil "1" "1" "square"]
+	Pin[0.0000 500.00mil 55.00mil 30.00mil 61.00mil 30.00mil "2" "2" ""]
+	ElementLine [0.0000 0.0000 0.0000 125.00mil 10.00mil]
+	ElementLine [0.0000 375.00mil 0.0000 500.00mil 10.00mil]
+	ElementLine [41.00mil 125.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 375.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil -41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil 41.00mil 125.00mil 10.00mil]
+
+	)
+
+Element["" "ACY500" "R102" "unknown" 44.3785mm 10.6133mm 3.2055mm 170.00mil 3 100 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 55.00mil 30.00mil 61.00mil 30.00mil "1" "1" "square"]
+	Pin[0.0000 500.00mil 55.00mil 30.00mil 61.00mil 30.00mil "2" "2" ""]
+	ElementLine [0.0000 0.0000 0.0000 125.00mil 10.00mil]
+	ElementLine [0.0000 375.00mil 0.0000 500.00mil 10.00mil]
+	ElementLine [41.00mil 125.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 375.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil -41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil 41.00mil 125.00mil 10.00mil]
+
+	)
+
+Element["" "ACY500" "R101" "unknown" 24.5385mm 10.6133mm 111.50mil 4.8870mm 3 100 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 55.00mil 30.00mil 61.00mil 30.00mil "1" "1" "square"]
+	Pin[0.0000 500.00mil 55.00mil 30.00mil 61.00mil 30.00mil "2" "2" ""]
+	ElementLine [0.0000 0.0000 0.0000 125.00mil 10.00mil]
+	ElementLine [0.0000 375.00mil 0.0000 500.00mil 10.00mil]
+	ElementLine [41.00mil 125.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 375.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil -41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil 41.00mil 125.00mil 10.00mil]
+
+	)
+
+Element["" "ACY500" "R103" "unknown" 44.3785mm 26.8533mm 2.9235mm 177.50mil 3 100 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 55.00mil 30.00mil 61.00mil 30.00mil "1" "1" "square"]
+	Pin[0.0000 500.00mil 55.00mil 30.00mil 61.00mil 30.00mil "2" "2" ""]
+	ElementLine [0.0000 0.0000 0.0000 125.00mil 10.00mil]
+	ElementLine [0.0000 375.00mil 0.0000 500.00mil 10.00mil]
+	ElementLine [41.00mil 125.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 375.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil -41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil 41.00mil 125.00mil 10.00mil]
+
+	)
+
+Element["" "ACY500" "R105" "unknown" 39.4985mm 26.8533mm 2.8296mm 4.6050mm 3 100 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 55.00mil 30.00mil 61.00mil 30.00mil "1" "1" "square"]
+	Pin[0.0000 500.00mil 55.00mil 30.00mil 61.00mil 30.00mil "2" "2" ""]
+	ElementLine [0.0000 0.0000 0.0000 125.00mil 10.00mil]
+	ElementLine [0.0000 375.00mil 0.0000 500.00mil 10.00mil]
+	ElementLine [41.00mil 125.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 375.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil -41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil 41.00mil 125.00mil 10.00mil]
+
+	)
+
+Element["" "ACY500" "R107" "unknown" 34.3937mm 26.8179mm 3.0175mm 4.6050mm 3 100 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 55.00mil 30.00mil 61.00mil 30.00mil "1" "1" "square"]
+	Pin[0.0000 500.00mil 55.00mil 30.00mil 61.00mil 30.00mil "2" "2" ""]
+	ElementLine [0.0000 0.0000 0.0000 125.00mil 10.00mil]
+	ElementLine [0.0000 375.00mil 0.0000 500.00mil 10.00mil]
+	ElementLine [41.00mil 125.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 375.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil -41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil 41.00mil 125.00mil 10.00mil]
+
+	)
+
+Element["" "ACY500" "R110" "unknown" 24.6350mm 26.6991mm 111.50mil 4.9809mm 3 100 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 55.00mil 30.00mil 61.00mil 30.00mil "1" "1" "square"]
+	Pin[0.0000 500.00mil 55.00mil 30.00mil 61.00mil 30.00mil "2" "2" ""]
+	ElementLine [0.0000 0.0000 0.0000 125.00mil 10.00mil]
+	ElementLine [0.0000 375.00mil 0.0000 500.00mil 10.00mil]
+	ElementLine [41.00mil 125.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 375.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil -41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil 41.00mil 125.00mil 10.00mil]
+
+	)
+
+Element["" "DIP14" "U1" "unknown" 53.8790mm 23.8690mm -50.00mil -50.00mil 3 100 ""]
+(
+	Attribute("device" "LM324")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "1" "1" "square"]
+	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "2" "2" ""]
+	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 28.00mil "3" "3" ""]
+	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "4" "4" ""]
+	Pin[0.0000 400.00mil 60.00mil 30.00mil 66.00mil 28.00mil "5" "5" ""]
+	Pin[0.0000 500.00mil 60.00mil 30.00mil 66.00mil 28.00mil "6" "6" ""]
+	Pin[0.0000 600.00mil 60.00mil 30.00mil 66.00mil 28.00mil "7" "7" ""]
+	Pin[300.00mil 600.00mil 60.00mil 30.00mil 66.00mil 28.00mil "8" "8" ""]
+	Pin[300.00mil 500.00mil 60.00mil 30.00mil 66.00mil 28.00mil "9" "9" ""]
+	Pin[300.00mil 400.00mil 60.00mil 30.00mil 66.00mil 28.00mil "10" "10" ""]
+	Pin[300.00mil 300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "11" "11" ""]
+	Pin[300.00mil 200.00mil 60.00mil 30.00mil 66.00mil 28.00mil "12" "12" ""]
+	Pin[300.00mil 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "13" "13" ""]
+	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "14" "14" ""]
+	ElementLine [-50.00mil -50.00mil -50.00mil 650.00mil 10.00mil]
+	ElementLine [-50.00mil 650.00mil 350.00mil 650.00mil 10.00mil]
+	ElementLine [350.00mil 650.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil 100.00mil -50.00mil 10.00mil]
+	ElementLine [200.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementArc [150.00mil -50.00mil 50.00mil 50.00mil 0.000000 180.000000 10.00mil]
+
+	)
+
+Element["" "SIP8" "CONN2" "unknown" 65.6733mm 3.8457mm 50.00mil -50.00mil 2 100 ""]
+(
+	Attribute("device" "CONNECTOR_8")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "1" "1" "square,edge2"]
+	Pin[-100.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "2" "2" "edge2"]
+	Pin[-200.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "3" "3" "edge2"]
+	Pin[-300.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "4" "4" "edge2"]
+	Pin[-400.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "5" "5" "edge2"]
+	Pin[-500.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "6" "6" "edge2"]
+	Pin[-600.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "7" "7" "edge2"]
+	Pin[-700.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "8" "8" "edge2"]
+	ElementLine [-700.00mil -50.00mil 0.0000 -50.00mil 20.00mil]
+	ElementLine [-700.00mil 50.00mil 0.0000 50.00mil 20.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementArc [0.0000 0.0000 50.00mil 50.00mil 90.000000 180.000000 20.00mil]
+	ElementArc [-700.00mil 0.0000 50.00mil 50.00mil 270.000000 180.000000 20.00mil]
+
+	)
+
+Element["" "SIP8" "CONN3" "unknown" 90.5370mm 3.5587mm 50.00mil -50.00mil 2 100 ""]
+(
+	Attribute("device" "CONNECTOR_8")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "1" "1" "square,edge2"]
+	Pin[-100.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "2" "2" "edge2"]
+	Pin[-200.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "3" "3" "edge2"]
+	Pin[-300.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "4" "4" "edge2"]
+	Pin[-400.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "5" "5" "edge2"]
+	Pin[-500.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "6" "6" "edge2"]
+	Pin[-600.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "7" "7" "edge2"]
+	Pin[-700.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "8" "8" "edge2"]
+	ElementLine [-700.00mil -50.00mil 0.0000 -50.00mil 20.00mil]
+	ElementLine [-700.00mil 50.00mil 0.0000 50.00mil 20.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementArc [0.0000 0.0000 50.00mil 50.00mil 90.000000 180.000000 20.00mil]
+	ElementArc [-700.00mil 0.0000 50.00mil 50.00mil 270.000000 180.000000 20.00mil]
+
+	)
+
+Element["" "DIP16" "U3" "unknown" 83.9790mm 23.6690mm -50.00mil -50.00mil 3 100 ""]
+(
+	Attribute("device" "4050")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "1" "1" "square"]
+	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Y" "2" ""]
+	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "3" ""]
+	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Y" "4" ""]
+	Pin[0.0000 400.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "5" ""]
+	Pin[0.0000 500.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Y" "6" ""]
+	Pin[0.0000 600.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "7" ""]
+	Pin[0.0000 700.00mil 60.00mil 30.00mil 66.00mil 28.00mil "8" "8" ""]
+	Pin[300.00mil 700.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "9" ""]
+	Pin[300.00mil 600.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Y" "10" ""]
+	Pin[300.00mil 500.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "11" ""]
+	Pin[300.00mil 400.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Y" "12" ""]
+	Pin[300.00mil 300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "13" "13" ""]
+	Pin[300.00mil 200.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "14" ""]
+	Pin[300.00mil 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Y" "15" ""]
+	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "16" "16" ""]
+	ElementLine [-50.00mil -50.00mil -50.00mil 750.00mil 10.00mil]
+	ElementLine [-50.00mil 750.00mil 350.00mil 750.00mil 10.00mil]
+	ElementLine [350.00mil 750.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil 100.00mil -50.00mil 10.00mil]
+	ElementLine [200.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementArc [150.00mil -50.00mil 50.00mil 50.00mil 0.000000 180.000000 10.00mil]
+
+	)
+
+Element["" "onion" "U200" "OMEGA2" 103.1156mm 6.7558mm 0.0000 0.0000 0 100 ""]
+(
+	Attribute("device" "onion")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[-120.00mil 59.00mil 60.00mil 30.00mil 60.00mil 28.00mil "GND" "1" ""]
+	Pin[841.00mil 59.00mil 60.00mil 30.00mil 60.00mil 28.00mil "GND" "32" ""]
+	Pin[-120.00mil 138.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D11" "2" ""]
+	Pin[841.00mil 138.00mil 60.00mil 30.00mil 60.00mil 28.00mil "VIN" "31" ""]
+	Pin[-120.00mil 217.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D3/CLK" "3" ""]
+	Pin[841.00mil 217.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D+" "30" ""]
+	Pin[-120.00mil 296.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D2/WS" "4" ""]
+	Pin[841.00mil 296.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D-" "29" ""]
+	Pin[-120.00mil 375.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D17" "5" ""]
+	Pin[841.00mil 375.00mil 60.00mil 30.00mil 60.00mil 28.00mil "RX0/D13" "28" ""]
+	Pin[-120.00mil 454.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D16" "6" ""]
+	Pin[841.00mil 454.00mil 60.00mil 30.00mil 60.00mil 28.00mil "TXo/D12" "27" ""]
+	Pin[-120.00mil 533.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D15" "7" ""]
+	Pin[841.00mil 533.00mil 60.00mil 30.00mil 60.00mil 28.00mil "FWRST/D38" "26" ""]
+	Pin[-120.00mil 612.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D46/RX1" "8" ""]
+	Pin[841.00mil 612.00mil 60.00mil 30.00mil 60.00mil 28.00mil "VOUT" "25" ""]
+	Pin[-120.00mil 691.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D45/TX1" "9" ""]
+	Pin[841.00mil 691.00mil 60.00mil 30.00mil 60.00mil 28.00mil "TX-" "24" ""]
+	Pin[-120.00mil 770.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D9/MISO" "10" ""]
+	Pin[841.00mil 770.00mil 60.00mil 30.00mil 60.00mil 28.00mil "TX+" "23" ""]
+	Pin[-120.00mil 849.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D8/MOSI" "11" ""]
+	Pin[841.00mil 849.00mil 60.00mil 30.00mil 60.00mil 28.00mil "RX-" "22" ""]
+	Pin[-120.00mil 928.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D7/CLK" "12" ""]
+	Pin[841.00mil 928.00mil 60.00mil 30.00mil 60.00mil 28.00mil "RX+" "21" ""]
+	Pin[-120.00mil 1007.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D6/CSI" "13" ""]
+	Pin[841.00mil 1007.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D18" "20" ""]
+	Pin[-120.00mil 1086.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D1/SDO" "14" ""]
+	Pin[841.00mil 1086.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D19" "19" ""]
+	Pin[-120.00mil 1165.00mil 60.00mil 30.00mil 60.00mil 28.00mil "D0/SDI" "15" ""]
+	Pin[841.00mil 1165.00mil 60.00mil 30.00mil 60.00mil 28.00mil "SCL/D4" "18" ""]
+	Pin[-120.00mil 1244.00mil 60.00mil 30.00mil 60.00mil 28.00mil "RST" "16" ""]
+	Pin[841.00mil 1244.00mil 60.00mil 30.00mil 60.00mil 28.00mil "SDA/D5" "17" ""]
+	ElementLine [-160.00mil 1300.00mil -20.00mil 1440.00mil 10.00mil]
+	ElementLine [-20.00mil 1440.00mil 880.00mil 1440.00mil 10.00mil]
+	ElementLine [-70.00mil -100.00mil 800.00mil -100.00mil 10.00mil]
+	ElementLine [-160.00mil -10.00mil -70.00mil -100.00mil 10.00mil]
+	ElementLine [880.00mil -20.00mil 880.00mil 1440.00mil 10.00mil]
+	ElementLine [800.00mil -100.00mil 880.00mil -20.00mil 10.00mil]
+	ElementLine [-160.00mil -10.00mil -160.00mil 1300.00mil 10.00mil]
+	ElementLine [-160.00mil 1300.00mil -150.00mil 1310.00mil 10.00mil]
+
+	)
+
+Element["" "DIP16" "U105" "unknown" 73.7938mm 672.28mil -50.00mil 50.00mil 0 100 ""]
+(
+	Attribute("device" "4051")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "X4" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "X6" "2" "edge2"]
+	Pin[200.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "X" "3" "edge2"]
+	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "X7" "4" "edge2"]
+	Pin[400.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "X5" "5" "edge2"]
+	Pin[500.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Inh" "6" "edge2"]
+	Pin[600.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "7" "7" "edge2"]
+	Pin[700.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "8" "8" "edge2"]
+	Pin[700.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "C" "9" "edge2"]
+	Pin[600.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "B" "10" "edge2"]
+	Pin[500.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "11" "edge2"]
+	Pin[400.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "X3" "12" "edge2"]
+	Pin[300.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "X0" "13" "edge2"]
+	Pin[200.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "X1" "14" "edge2"]
+	Pin[100.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "X2" "15" "edge2"]
+	Pin[0.0000 -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "16" "16" "edge2"]
+	ElementLine [-50.00mil 50.00mil 750.00mil 50.00mil 10.00mil]
+	ElementLine [750.00mil -350.00mil 750.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -350.00mil 750.00mil -350.00mil 10.00mil]
+	ElementLine [-50.00mil -100.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -350.00mil -50.00mil -200.00mil 10.00mil]
+	ElementArc [-50.00mil -150.00mil 50.00mil 50.00mil 90.000000 180.000000 10.00mil]
+
+	)
+
+Element["" "DIP14" "U2" "unknown" 68.8790mm 23.9690mm -50.00mil -50.00mil 3 100 ""]
+(
+	Attribute("device" "7486")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "A" "1" "square"]
+	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "B" "2" ""]
+	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Y" "3" ""]
+	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Y" "4" ""]
+	Pin[0.0000 400.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "5" ""]
+	Pin[0.0000 500.00mil 60.00mil 30.00mil 66.00mil 28.00mil "B" "6" ""]
+	Pin[0.0000 600.00mil 60.00mil 30.00mil 66.00mil 28.00mil "7" "7" ""]
+	Pin[300.00mil 600.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "8" ""]
+	Pin[300.00mil 500.00mil 60.00mil 30.00mil 66.00mil 28.00mil "B" "9" ""]
+	Pin[300.00mil 400.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Y" "10" ""]
+	Pin[300.00mil 300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Y" "11" ""]
+	Pin[300.00mil 200.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "12" ""]
+	Pin[300.00mil 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "B" "13" ""]
+	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "14" "14" ""]
+	ElementLine [-50.00mil -50.00mil -50.00mil 650.00mil 10.00mil]
+	ElementLine [-50.00mil 650.00mil 350.00mil 650.00mil 10.00mil]
+	ElementLine [350.00mil 650.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil 100.00mil -50.00mil 10.00mil]
+	ElementLine [200.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementArc [150.00mil -50.00mil 50.00mil 50.00mil 0.000000 180.000000 10.00mil]
+
+	)
+
+Element["" "DIP16" "U106" "unknown" 50.6014mm 17.0508mm -50.00mil 50.00mil 0 100 ""]
+(
+	Attribute("device" "4051")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "X4" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "X6" "2" "edge2"]
+	Pin[200.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "X" "3" "edge2"]
+	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "X7" "4" "edge2"]
+	Pin[400.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "X5" "5" "edge2"]
+	Pin[500.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Inh" "6" "edge2"]
+	Pin[600.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "7" "7" "edge2"]
+	Pin[700.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "8" "8" "edge2"]
+	Pin[700.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "C" "9" "edge2"]
+	Pin[600.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "B" "10" "edge2"]
+	Pin[500.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "11" "edge2"]
+	Pin[400.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "X3" "12" "edge2"]
+	Pin[300.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "X0" "13" "edge2"]
+	Pin[200.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "X1" "14" "edge2"]
+	Pin[100.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "X2" "15" "edge2"]
+	Pin[0.0000 -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "16" "16" "edge2"]
+	ElementLine [-50.00mil 50.00mil 750.00mil 50.00mil 10.00mil]
+	ElementLine [750.00mil -350.00mil 750.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -350.00mil 750.00mil -350.00mil 10.00mil]
+	ElementLine [-50.00mil -100.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -350.00mil -50.00mil -200.00mil 10.00mil]
+	ElementArc [-50.00mil -150.00mil 50.00mil 50.00mil 90.000000 180.000000 10.00mil]
+
+	)
+
+Element["" "ACY500" "R109" "unknown" 29.7090mm 26.7147mm 2.8296mm 185.00mil 3 100 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 55.00mil 30.00mil 61.00mil 30.00mil "1" "1" "square"]
+	Pin[0.0000 500.00mil 55.00mil 30.00mil 61.00mil 30.00mil "2" "2" ""]
+	ElementLine [0.0000 0.0000 0.0000 125.00mil 10.00mil]
+	ElementLine [0.0000 375.00mil 0.0000 500.00mil 10.00mil]
+	ElementLine [41.00mil 125.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 375.00mil 41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil -41.00mil 375.00mil 10.00mil]
+	ElementLine [-41.00mil 125.00mil 41.00mil 125.00mil 10.00mil]
+
+	)
+
+Element["" "TO220" "U300" "3.3V" 13.4282mm 30.9620mm -2.0091mm -22.4003mm 0 100 ""]
+(
+	Attribute("device" "LM3940")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[-100.00mil 0.0000 2.2320mm 30.00mil 2.3844mm 60.00mil "Vin" "1" "square"]
+	Pin[0.0000 0.0000 90.00mil 30.00mil 96.00mil 60.00mil "GND" "2" ""]
+	Pin[100.00mil 0.0000 2.2320mm 30.00mil 2.3844mm 60.00mil "Vout" "3" ""]
+	Pin[0.0000 -670.00mil 150.00mil 30.00mil 156.00mil 130.00mil "4" "4" ""]
+	ElementLine [-100.00mil 0.0000 -100.00mil -180.00mil 30.00mil]
+	ElementLine [0.0000 0.0000 0.0000 -180.00mil 30.00mil]
+	ElementLine [100.00mil 0.0000 100.00mil -180.00mil 30.00mil]
+	ElementLine [-200.00mil -180.00mil 200.00mil -180.00mil 20.00mil]
+	ElementLine [200.00mil -180.00mil 200.00mil -555.00mil 20.00mil]
+	ElementLine [200.00mil -555.00mil -200.00mil -555.00mil 20.00mil]
+	ElementLine [-200.00mil -555.00mil -200.00mil -180.00mil 20.00mil]
+	ElementLine [-200.00mil -555.00mil 200.00mil -555.00mil 20.00mil]
+	ElementLine [200.00mil -555.00mil 200.00mil -680.00mil 20.00mil]
+	ElementLine [200.00mil -680.00mil 185.00mil -680.00mil 20.00mil]
+	ElementLine [185.00mil -680.00mil 185.00mil -750.00mil 20.00mil]
+	ElementLine [185.00mil -750.00mil 200.00mil -750.00mil 20.00mil]
+	ElementLine [200.00mil -750.00mil 200.00mil -790.00mil 20.00mil]
+	ElementLine [200.00mil -790.00mil -200.00mil -790.00mil 20.00mil]
+	ElementLine [-200.00mil -790.00mil -200.00mil -750.00mil 20.00mil]
+	ElementLine [-200.00mil -750.00mil -185.00mil -750.00mil 20.00mil]
+	ElementLine [-185.00mil -750.00mil -185.00mil -680.00mil 20.00mil]
+	ElementLine [-185.00mil -680.00mil -200.00mil -680.00mil 20.00mil]
+	ElementLine [-200.00mil -680.00mil -200.00mil -555.00mil 20.00mil]
+
+	)
+
+Element["" "RCY100" "C2" "33uF" 16.2381mm 36.5780mm 25.00mil 3.4569mm 0 100 ""]
+(
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 30.00mil "1" "1" "square"]
+	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 30.00mil "2" "2" ""]
+	ElementArc [50.00mil 0.0000 100.00mil 100.00mil 0.000000 360.000000 10.00mil]
+
+	)
+
+Element["" "CONNECTOR1_2" "CONN4" "unknown" 13.0790mm 4.7690mm -0.6045mm -127.50mil 0 100 ""]
+(
+	Attribute("device" "CONNECTOR_2")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2"]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
+	ElementLine [150.00mil 50.00mil 150.00mil -50.00mil 10.00mil]
+	ElementLine [150.00mil -50.00mil -50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 10.00mil]
+
+	)
+
+Element["" "CONNECTOR1_2" "CONN5" "unknown" 5.4790mm 4.7690mm -0.6045mm -127.50mil 0 100 ""]
+(
+	Attribute("device" "CONNECTOR_2")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" "edge2"]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
+	ElementLine [150.00mil 50.00mil 150.00mil -50.00mil 10.00mil]
+	ElementLine [150.00mil -50.00mil -50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 10.00mil]
+
+	)
+Layer(1 "top" "copper")
+(
+	Line[124.3881mm 10.2610mm 123.3340mm 11.3151mm 10.00mil 20.00mil "clearline,auto"]
+	Line[73.7938mm 9.4559mm 73.7938mm 372.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[93.8541mm 33.8290mm 97.9086mm 37.8835mm 10.00mil 20.00mil "clearline,auto"]
+	Line[124.9215mm 40.0044mm 125.6200mm 39.3059mm 10.00mil 20.00mil "clearline,auto"]
+	Line[92.5515mm 35.2260mm 92.7420mm 35.4165mm 10.00mil 20.00mil "clearline,auto"]
+	Line[68.8790mm 29.0490mm 70.0220mm 30.1920mm 10.00mil 20.00mil "clearline,auto"]
+	Line[83.8980mm 29.1300mm 82.8360mm 30.1920mm 10.00mil 20.00mil "clearline,auto"]
+	Line[39.4985mm 39.5533mm 38.4544mm 40.5974mm 10.00mil 20.00mil "clearline,auto"]
+	Line[28.8282mm 4.0736mm 28.8282mm 4.8356mm 10.00mil 20.00mil "clearline,auto"]
+	Line[39.2985mm 23.3133mm 40.3780mm 22.2338mm 10.00mil 20.00mil "clearline,auto"]
+	Line[52.9733mm 3.8457mm 52.9733mm 4.9634mm 10.00mil 20.00mil "clearline,auto"]
+	Line[49.4584mm 8.4783mm 49.4584mm 10.3833mm 10.00mil 20.00mil "clearline,auto"]
+	Line[46.7503mm 2.8932mm 46.7503mm 13.1997mm 10.00mil 20.00mil "clearline,auto"]
+	Line[63.1333mm 3.8457mm 64.2763mm 4.9887mm 10.00mil 20.00mil "clearline,auto"]
+	Line[66.6258mm 4.9887mm 66.8163mm 4.7982mm 10.00mil 20.00mil "clearline,auto"]
+	Line[56.6563mm 3.1472mm 56.6563mm 8.4559mm 10.00mil 20.00mil "clearline,auto"]
+	Line[59.1963mm 3.1472mm 59.1963mm 8.4559mm 10.00mil 20.00mil "clearline,auto"]
+	Line[77.8370mm 3.5587mm 77.8370mm 6.2636mm 10.00mil 20.00mil "clearline,auto"]
+	Line[78.9800mm 2.8602mm 78.9800mm 6.8097mm 10.00mil 20.00mil "clearline,auto"]
+	Line[87.9970mm 3.5587mm 87.9970mm 5.8572mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.0968mm 8.7574mm 85.0968mm 409.78mil 10.00mil 20.00mil "clearline,auto"]
+	Line[88.9653mm 6.9844mm 89.1400mm 6.8097mm 10.00mil 20.00mil "clearline,auto"]
+	Line[69.6514mm 4.5688mm 69.6514mm 10.2563mm 10.00mil 20.00mil "clearline,auto"]
+	Line[77.3515mm 25.2660mm 77.6420mm 25.5565mm 10.00mil 20.00mil "clearline,auto"]
+	Line[39.4985mm 26.8533mm 40.5780mm 27.9328mm 10.00mil 20.00mil "clearline,auto"]
+	Line[40.5780mm 25.7738mm 39.4985mm 26.8533mm 10.00mil 20.00mil "clearline,auto"]
+	Line[61.4990mm 26.4090mm 60.3560mm 27.5520mm 10.00mil 20.00mil "clearline,auto"]
+	Line[76.4990mm 39.2090mm 75.3560mm 40.3520mm 10.00mil 20.00mil "clearline,auto"]
+	Line[39.2985mm 10.6133mm 39.2985mm 14.3674mm 10.00mil 20.00mil "clearline,auto"]
+	Line[55.0220mm 28.9490mm 55.0220mm 32.8860mm 10.00mil 20.00mil "clearline,auto"]
+	Line[44.8299mm 0.8917mm 43.2990mm 2.4226mm 10.00mil 20.00mil "clearline,auto"]
+	Line[3649.80mil 0.8917mm 99.3056mm 7.4924mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.5413mm 627.28mil 85.3508mm 634.78mil 10.00mil 20.00mil "clearline,auto"]
+	Line[25.8437mm 2.4226mm 25.1452mm 3.1211mm 10.00mil 20.00mil "clearline,auto"]
+	Line[84.7235mm 37.5580mm 85.1220mm 37.9565mm 10.00mil 20.00mil "clearline,auto"]
+	Line[77.2995mm 32.8340mm 77.6420mm 33.1765mm 10.00mil 20.00mil "clearline,auto"]
+	Line[61.4990mm 31.4890mm 60.3560mm 32.6320mm 10.00mil 20.00mil "clearline,auto"]
+	Line[14.8332mm 35.8160mm 12.9917mm 37.6575mm 10.00mil 20.00mil "clearline,auto"]
+	Line[13.4282mm 29.4650mm 13.4282mm 30.9620mm 10.00mil 20.00mil "clearline,auto"]
+	Line[97.0069mm 38.5947mm 97.0069mm 39.0392mm 10.00mil 20.00mil "clearline,auto"]
+	Line[125.2390mm 40.5124mm 126.1280mm 39.6234mm 10.00mil 20.00mil "clearline,auto"]
+	Line[27.5510mm 28.3022mm 27.5510mm 36.4831mm 10.00mil 20.00mil "clearline,auto"]
+	Line[56.8254mm 31.9843mm 56.8254mm 38.2581mm 10.00mil 20.00mil "clearline,auto"]
+	Line[68.1401mm 11.9835mm 65.8414mm 14.2822mm 10.00mil 20.00mil "clearline,auto"]
+	Line[41.6099mm 37.5721mm 42.0036mm 37.9658mm 10.00mil 20.00mil "clearline,auto"]
+	Line[10.8882mm 36.5145mm 10.8882mm 30.9620mm 10.00mil 20.00mil "clearline,auto"]
+	Line[91.5738mm 9.4559mm 91.6800mm 9.3497mm 10.00mil 20.00mil "clearline,auto"]
+	Line[24.5385mm 23.3133mm 24.6350mm 23.4098mm 10.00mil 20.00mil "clearline,auto"]
+	Line[10.6710mm 36.5145mm 10.8882mm 36.5145mm 10.00mil 20.00mil "clearline,auto"]
+	Line[10.6710mm 36.5145mm 10.8882mm 36.5145mm 10.00mil 20.00mil "clearline,auto"]
+	Line[29.5322mm 23.4352mm 30.2307mm 23.4352mm 10.00mil 20.00mil "clearline,auto"]
+	Line[24.5385mm 10.6133mm 25.1452mm 10.0066mm 10.00mil 20.00mil "clearline,auto"]
+	Line[90.4735mm 1.3997mm 91.6800mm 2.6062mm 10.00mil 20.00mil "clearline,auto"]
+	Line[32.7453mm 24.1103mm 33.0278mm 24.3928mm 10.00mil 20.00mil "clearline,auto"]
+	Line[52.7360mm 32.6320mm 53.8790mm 31.4890mm 10.00mil 20.00mil "clearline,auto"]
+	Line[55.9237mm 35.1720mm 52.9265mm 35.1720mm 10.00mil 20.00mil "clearline,auto"]
+	Line[42.0036mm 39.1469mm 43.4895mm 40.6328mm 10.00mil 20.00mil "clearline,auto"]
+	Line[42.0036mm 37.9658mm 42.0036mm 39.1469mm 10.00mil 20.00mil "clearline,auto"]
+	Line[41.2797mm 13.8899mm 46.0916mm 18.7018mm 10.00mil 20.00mil "clearline,auto"]
+	Line[57.5864mm 19.0955mm 57.1927mm 18.7018mm 10.00mil 20.00mil "clearline,auto"]
+	Line[52.7360mm 19.6035mm 47.9467mm 24.3928mm 10.00mil 20.00mil "clearline,auto"]
+	Line[76.0925mm 6.3952mm 74.1748mm 6.3952mm 10.00mil 20.00mil "clearline,auto"]
+	Line[98.5309mm 27.6060mm 88.2589mm 27.6060mm 10.00mil 20.00mil "clearline,auto"]
+	Line[88.2589mm 33.5877mm 86.9637mm 33.5877mm 10.00mil 20.00mil "clearline,auto"]
+	Line[84.9315mm 27.6060mm 85.4778mm 28.1523mm 10.00mil 20.00mil "clearline,auto"]
+	Line[84.9315mm 27.6060mm 82.8360mm 27.6060mm 10.00mil 20.00mil "clearline,auto"]
+	Line[77.4480mm 22.2180mm 82.8360mm 27.6060mm 10.00mil 20.00mil "clearline,auto"]
+	Line[77.4480mm 22.2180mm 66.6161mm 22.2180mm 10.00mil 20.00mil "clearline,auto"]
+	Line[124.5659mm 32.3336mm 124.4770mm 32.3336mm 10.00mil 20.00mil "clearline,auto"]
+	Line[125.2390mm 40.5124mm 98.4801mm 40.5124mm 10.00mil 20.00mil "clearline,auto"]
+	Line[86.8875mm 31.7843mm 85.9858mm 31.7843mm 10.00mil 20.00mil "clearline,auto"]
+	Line[5.4790mm 4.7690mm 5.4790mm 25.5528mm 10.00mil 20.00mil "clearline,auto"]
+	Line[8.0190mm 4.7690mm 9.1620mm 5.9120mm 10.00mil 20.00mil "clearline,auto"]
+	Line[19.8372mm 5.9120mm 24.5385mm 10.6133mm 10.00mil 20.00mil "clearline,auto"]
+	Line[13.4282mm 29.4650mm 11.1422mm 27.1790mm 10.00mil 20.00mil "clearline,auto"]
+	Line[11.1422mm 5.9120mm 11.1422mm 27.1790mm 10.00mil 20.00mil "clearline,auto"]
+	Line[16.2381mm 35.8160mm 16.2381mm 36.5780mm 10.00mil 20.00mil "clearline,auto"]
+	Line[8.1310mm 36.5145mm 9.2740mm 37.6575mm 10.00mil 20.00mil "clearline,auto"]
+	Line[12.9917mm 37.6575mm 9.2740mm 37.6575mm 10.00mil 20.00mil "clearline,auto"]
+	Line[16.2381mm 36.5780mm 21.2735mm 41.6134mm 10.00mil 20.00mil "clearline,auto"]
+	Line[67.7360mm 31.4890mm 61.4990mm 31.4890mm 10.00mil 20.00mil "clearline,auto"]
+	Line[68.8790mm 36.6690mm 68.8790mm 39.2090mm 10.00mil 20.00mil "clearline,auto"]
+	Line[67.7360mm 27.6520mm 68.8790mm 26.5090mm 10.00mil 20.00mil "clearline,auto"]
+	Line[77.2995mm 32.8340mm 67.7360mm 32.8340mm 10.00mil 20.00mil "clearline,auto"]
+	Line[84.7235mm 37.5580mm 77.3880mm 37.5580mm 10.00mil 20.00mil "clearline,auto"]
+	Line[43.2990mm 2.4226mm 25.8437mm 2.4226mm 10.00mil 20.00mil "clearline,auto"]
+	Line[90.4308mm 627.28mil 91.5738mm 672.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[90.4308mm 627.28mil 85.5413mm 627.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[68.3814mm 18.1938mm 68.4065mm 717.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[99.3056mm 7.4924mm 100.0676mm 8.2544mm 10.00mil 20.00mil "clearline,auto"]
+	Line[3649.80mil 0.8917mm 44.8299mm 0.8917mm 10.00mil 20.00mil "clearline,auto"]
+	Line[124.4770mm 8.2544mm 100.0676mm 8.2544mm 10.00mil 20.00mil "clearline,auto"]
+	Line[53.8790mm 28.9490mm 55.0220mm 28.9490mm 10.00mil 20.00mil "clearline,auto"]
+	Line[24.6350mm 23.4098mm 24.6350mm 26.6991mm 10.00mil 20.00mil "clearline,auto"]
+	Line[68.1170mm 23.2070mm 68.8790mm 23.9690mm 10.00mil 20.00mil "clearline,auto"]
+	Line[67.6360mm 22.7260mm 68.1170mm 23.2070mm 10.00mil 20.00mil "clearline,auto"]
+	Line[67.6360mm 22.7260mm 55.0220mm 22.7260mm 10.00mil 20.00mil "clearline,auto"]
+	Line[55.0220mm 22.7260mm 53.8790mm 23.8690mm 10.00mil 20.00mil "clearline,auto"]
+	Line[53.8790mm 36.5690mm 53.4980mm 36.5690mm 10.00mil 20.00mil "clearline,auto"]
+	Line[44.3785mm 26.8533mm 44.3785mm 27.4495mm 10.00mil 20.00mil "clearline,auto"]
+	Line[61.4990mm 39.1090mm 62.7420mm 40.3520mm 10.00mil 20.00mil "clearline,auto"]
+	Line[50.9578mm 25.7738mm 52.7360mm 27.5520mm 10.00mil 20.00mil "clearline,auto"]
+	Line[50.9578mm 25.7738mm 40.5780mm 25.7738mm 10.00mil 20.00mil "clearline,auto"]
+	Line[29.7090mm 39.4147mm 30.3919mm 40.0976mm 10.00mil 20.00mil "clearline,auto"]
+	Line[30.4075mm 40.0976mm 30.3919mm 40.0976mm 10.00mil 20.00mil "clearline,auto"]
+	Line[30.4075mm 40.0976mm 31.4153mm 41.1054mm 10.00mil 20.00mil "clearline,auto"]
+	Line[39.9149mm 41.1054mm 31.4153mm 41.1054mm 10.00mil 20.00mil "clearline,auto"]
+	Line[31.4117mm 25.0120mm 29.7090mm 26.7147mm 10.00mil 20.00mil "clearline,auto"]
+	Line[61.4990mm 23.8690mm 61.4990mm 25.0120mm 10.00mil 20.00mil "clearline,auto"]
+	Line[100.0676mm 14.2742mm 91.3121mm 14.2742mm 10.00mil 20.00mil "clearline,auto"]
+	Line[63.3014mm 9.4308mm 64.4444mm 10.5738mm 10.00mil 20.00mil "clearline,auto"]
+	Line[69.3339mm 10.5738mm 64.4444mm 10.5738mm 10.00mil 20.00mil "clearline,auto"]
+	Line[88.4415mm 1.9077mm 72.3125mm 1.9077mm 10.00mil 20.00mil "clearline,auto"]
+	Line[88.9653mm 6.9844mm 86.4938mm 9.4559mm 10.00mil 20.00mil "clearline,auto"]
+	Line[100.0676mm 12.2676mm 91.8455mm 12.2676mm 10.00mil 20.00mil "clearline,auto"]
+	Line[89.0338mm 9.4559mm 89.0338mm 372.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[100.0676mm 10.2610mm 91.5738mm 10.2610mm 10.00mil 20.00mil "clearline,auto"]
+	Line[69.1434mm 4.2513mm 69.1434mm 8.6688mm 10.00mil 20.00mil "clearline,auto"]
+	Line[90.4735mm 1.3997mm 71.9950mm 1.3997mm 10.00mil 20.00mil "clearline,auto"]
+	Line[100.0676mm 36.3468mm 99.9787mm 36.3468mm 10.00mil 20.00mil "clearline,auto"]
+	Line[93.7779mm 30.1460mm 98.9246mm 35.2927mm 10.00mil 20.00mil "clearline,auto"]
+	Line[93.7779mm 30.1460mm 89.1860mm 30.1460mm 10.00mil 20.00mil "clearline,auto"]
+	Line[86.4938mm 672.28mil 86.4938mm 27.4538mm 10.00mil 20.00mil "clearline,auto"]
+	Line[78.8738mm 9.4559mm 78.8738mm 372.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[84.9063mm 417.28mil 80.0168mm 417.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[85.4570mm 3.5587mm 84.3140mm 2.4157mm 10.00mil 20.00mil "clearline,auto"]
+	Line[82.9170mm 3.5587mm 83.9538mm 4.5955mm 10.00mil 20.00mil "clearline,auto"]
+	Line[82.8108mm 627.28mil 83.9538mm 672.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[82.8108mm 627.28mil 80.7153mm 627.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[75.1908mm 8.5034mm 75.1908mm 409.78mil 10.00mil 20.00mil "clearline,auto"]
+	Line[76.8037mm 7.2969mm 76.3973mm 7.2969mm 10.00mil 20.00mil "clearline,auto"]
+	Line[65.6733mm 3.8457mm 64.5303mm 2.7027mm 10.00mil 20.00mil "clearline,auto"]
+	Line[66.1178mm 2.1947mm 57.6088mm 2.1947mm 10.00mil 20.00mil "clearline,auto"]
+	Line[66.6258mm 4.9887mm 64.2763mm 4.9887mm 10.00mil 20.00mil "clearline,auto"]
+	Line[55.5133mm 3.8457mm 54.3703mm 2.7027mm 10.00mil 20.00mil "clearline,auto"]
+	Line[59.1104mm 15.3998mm 60.7614mm 17.0508mm 10.00mil 20.00mil "clearline,auto"]
+	Line[59.1104mm 15.3998mm 54.4749mm 15.3998mm 10.00mil 20.00mil "clearline,auto"]
+	Line[57.0784mm 15.9078mm 58.2214mm 17.0508mm 10.00mil 20.00mil "clearline,auto"]
+	Line[57.0784mm 15.9078mm 54.1574mm 15.9078mm 10.00mil 20.00mil "clearline,auto"]
+	Line[47.8933mm 3.8457mm 48.9504mm 4.9028mm 10.00mil 20.00mil "clearline,auto"]
+	Line[33.5843mm 2.9306mm 27.4312mm 2.9306mm 10.00mil 20.00mil "clearline,auto"]
+	Line[28.4527mm 5.2111mm 28.8282mm 4.8356mm 10.00mil 20.00mil "clearline,auto"]
+	Line[28.4527mm 27.5910mm 28.6559mm 27.7942mm 10.00mil 20.00mil "clearline,auto"]
+	Line[30.9155mm 30.0538mm 30.9155mm 38.0082mm 10.00mil 20.00mil "clearline,auto"]
+	Line[38.4544mm 40.5974mm 33.5047mm 40.5974mm 10.00mil 20.00mil "clearline,auto"]
+	Line[83.9790mm 28.7490mm 83.9790mm 29.0490mm 10.00mil 20.00mil "clearline,auto"]
+	Line[82.8360mm 30.1920mm 70.0220mm 30.1920mm 10.00mil 20.00mil "clearline,auto"]
+	Line[83.1360mm 38.0660mm 83.9790mm 38.9090mm 10.00mil 20.00mil "clearline,auto"]
+	Line[83.1360mm 38.0660mm 75.8005mm 38.0660mm 10.00mil 20.00mil "clearline,auto"]
+	Line[75.3560mm 35.2720mm 75.3560mm 37.6215mm 10.00mil 20.00mil "clearline,auto"]
+	Line[76.4990mm 34.1290mm 75.3560mm 35.2720mm 10.00mil 20.00mil "clearline,auto"]
+	Line[92.5515mm 35.2260mm 82.8360mm 35.2260mm 10.00mil 20.00mil "clearline,auto"]
+	Line[79.1990mm 31.5890mm 82.8360mm 35.2260mm 10.00mil 20.00mil "clearline,auto"]
+	Line[79.1990mm 31.5890mm 76.4990mm 31.5890mm 10.00mil 20.00mil "clearline,auto"]
+	Line[124.5659mm 34.3402mm 124.4770mm 34.3402mm 10.00mil 20.00mil "clearline,auto"]
+	Line[124.9215mm 40.0044mm 98.7976mm 40.0044mm 10.00mil 20.00mil "clearline,auto"]
+	Line[93.8541mm 33.8290mm 91.5990mm 33.8290mm 10.00mil 20.00mil "clearline,auto"]
+	Line[90.4560mm 37.5120mm 91.5990mm 36.3690mm 10.00mil 20.00mil "clearline,auto"]
+	Line[4.3360mm 34.8150mm 12.1130mm 42.5920mm 10.00mil 20.00mil "clearline,auto"]
+	Line[4.3360mm 3.8165mm 4.3360mm 34.8150mm 10.00mil 20.00mil "clearline,auto"]
+	Line[13.0790mm 4.7690mm 11.9360mm 3.6260mm 10.00mil 20.00mil "clearline,auto"]
+	Line[50.6014mm 9.4308mm 51.7444mm 10.5738mm 10.00mil 20.00mil "clearline,auto"]
+	Line[61.2694mm 10.5738mm 51.7444mm 10.5738mm 10.00mil 20.00mil "clearline,auto"]
+	Line[61.2694mm 10.5738mm 61.7774mm 11.0818mm 10.00mil 20.00mil "clearline,auto"]
+	Line[72.1679mm 11.0818mm 61.7774mm 11.0818mm 10.00mil 20.00mil "clearline,auto"]
+	Line[124.4770mm 10.2610mm 124.3881mm 10.2610mm 10.00mil 20.00mil "clearline,auto"]
+	Line[98.4166mm 38.7979mm 99.1151mm 39.4964mm 10.00mil 20.00mil "clearline,auto"]
+	Line[93.5366mm 32.6860mm 98.4166mm 37.5660mm 10.00mil 20.00mil "clearline,auto"]
+	Line[93.5366mm 32.6860mm 86.8875mm 32.6860mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.9858mm 25.6758mm 83.9790mm 23.6690mm 10.00mil 20.00mil "clearline,auto"]
+	Line[18.7781mm 1329.60mil 15.9682mm 30.9620mm 10.00mil 20.00mil "clearline,auto"]
+	Line[18.7781mm 1329.60mil 18.7781mm 36.5780mm 10.00mil 20.00mil "clearline,auto"]
+	Line[77.3515mm 25.2660mm 61.7530mm 25.2660mm 10.00mil 20.00mil "clearline,auto"]
+	Line[68.3814mm 17.0508mm 68.3814mm 18.1938mm 10.00mil 20.00mil "clearline,auto"]
+	Line[68.8790mm 36.6690mm 67.7360mm 35.5260mm 10.00mil 20.00mil "clearline,auto"]
+	Line[16.2381mm 35.8160mm 16.2381mm 36.5780mm 10.00mil 20.00mil "clearline,auto"]
+	Line[13.4282mm 30.9620mm 13.4282mm 34.4110mm 10.00mil 20.00mil "clearline,auto"]
+	Line[16.2381mm 35.8160mm 14.8332mm 35.8160mm 10.00mil 20.00mil "clearline,auto"]
+	Line[19.8372mm 5.9120mm 16.2788mm 5.9120mm 10.00mil 20.00mil "clearline,auto"]
+	Line[91.5738mm 9.4559mm 91.5738mm 372.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[76.4990mm 26.5090mm 68.8790mm 26.5090mm 10.00mil 20.00mil "clearline,auto"]
+	Line[43.2990mm 2.4226mm 43.2990mm 11.8439mm 10.00mil 20.00mil "clearline,auto"]
+	Line[49.6489mm 18.1938mm 68.3814mm 18.1938mm 10.00mil 20.00mil "clearline,auto"]
+	Line[31.4117mm 25.0120mm 61.4990mm 25.0120mm 10.00mil 20.00mil "clearline,auto"]
+	Line[86.4938mm 9.4559mm 86.4938mm 372.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[85.9858mm 28.1775mm 85.9858mm 31.7843mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.9858mm 25.6758mm 85.9858mm 28.1775mm 10.00mil 20.00mil "clearline,auto"]
+	Line[67.7360mm 28.9990mm 67.7360mm 31.4890mm 10.00mil 20.00mil "clearline,auto"]
+	Line[16.2788mm 5.9120mm 11.1422mm 5.9120mm 10.00mil 20.00mil "clearline,auto"]
+	Line[53.8790mm 28.9490mm 55.0220mm 28.9490mm 10.00mil 20.00mil "clearline,auto"]
+	Line[52.7360mm 34.9815mm 52.7360mm 32.6320mm 10.00mil 20.00mil "clearline,auto"]
+	Line[65.8414mm 17.0508mm 65.8414mm 14.2822mm 10.00mil 20.00mil "clearline,auto"]
+	Line[72.6508mm 7.9192mm 74.1748mm 6.3952mm 10.00mil 20.00mil "clearline,auto"]
+	Line[60.3560mm 32.6320mm 60.3560mm 35.5530mm 10.00mil 20.00mil "clearline,auto"]
+	Line[67.7360mm 31.4890mm 67.7360mm 28.9990mm 10.00mil 20.00mil "clearline,auto"]
+	Line[25.1452mm 3.1211mm 25.1452mm 10.0066mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.3508mm 634.78mil 85.3508mm 699.78mil 10.00mil 20.00mil "clearline,auto"]
+	Line[31.4321mm 22.2338mm 30.2307mm 23.4352mm 10.00mil 20.00mil "clearline,auto"]
+	Line[76.4990mm 29.0490mm 76.9260mm 28.6220mm 10.00mil 20.00mil "clearline,auto"]
+	Line[72.3125mm 1.9077mm 69.6514mm 4.5688mm 10.00mil 20.00mil "clearline,auto"]
+	Line[68.3814mm 9.4308mm 69.1434mm 8.6688mm 10.00mil 20.00mil "clearline,auto"]
+	Line[71.9950mm 1.3997mm 69.1434mm 4.2513mm 10.00mil 20.00mil "clearline,auto"]
+	Line[87.3778mm 6.4764mm 85.0968mm 8.7574mm 10.00mil 20.00mil "clearline,auto"]
+	Line[76.3338mm 9.4559mm 77.9848mm 7.8049mm 10.00mil 20.00mil "clearline,auto"]
+	Line[79.4245mm 2.4157mm 78.9800mm 2.8602mm 10.00mil 20.00mil "clearline,auto"]
+	Line[76.3973mm 7.2969mm 75.1908mm 8.5034mm 10.00mil 20.00mil "clearline,auto"]
+	Line[59.6408mm 2.7027mm 59.1963mm 3.1472mm 10.00mil 20.00mil "clearline,auto"]
+	Line[57.6088mm 2.1947mm 56.6563mm 3.1472mm 10.00mil 20.00mil "clearline,auto"]
+	Line[46.9408mm 2.7027mm 46.7503mm 2.8932mm 10.00mil 20.00mil "clearline,auto"]
+	Line[49.6489mm 8.2878mm 49.4584mm 8.4783mm 10.00mil 20.00mil "clearline,auto"]
+	Line[26.2882mm 4.0736mm 27.4312mm 2.9306mm 10.00mil 20.00mil "clearline,auto"]
+	Line[28.4527mm 5.2111mm 28.4527mm 27.5910mm 10.00mil 20.00mil "clearline,auto"]
+	Line[4.5265mm 3.6260mm 4.3360mm 3.8165mm 10.00mil 20.00mil "clearline,auto"]
+	Line[123.3340mm 11.3151mm 123.3340mm 17.1825mm 10.00mil 20.00mil "clearline,auto"]
+	Line[73.7938mm 372.28mil 73.7938mm 9.4559mm 10.00mil 20.00mil "clearline,auto"]
+	Line[76.3338mm 372.28mil 76.3338mm 9.4559mm 10.00mil 20.00mil "clearline,auto"]
+	Line[78.8738mm 372.28mil 78.8738mm 9.4559mm 10.00mil 20.00mil "clearline,auto"]
+	Line[83.9538mm 372.28mil 83.9538mm 9.4559mm 10.00mil 20.00mil "clearline,auto"]
+	Line[86.4938mm 9.4559mm 86.4938mm 372.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[89.0338mm 372.28mil 89.0338mm 9.4559mm 10.00mil 20.00mil "clearline,auto"]
+	Line[91.5738mm 10.2610mm 91.5738mm 372.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[67.7360mm 28.9990mm 67.7360mm 27.6520mm 10.00mil 20.00mil "clearline,auto"]
+	Line[55.0220mm 28.9490mm 61.4990mm 28.9490mm 10.00mil 20.00mil "clearline,auto"]
+	Line[67.7360mm 32.8340mm 67.7360mm 35.5260mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.9858mm 28.1775mm 85.9858mm 31.7843mm 10.00mil 20.00mil "clearline,auto"]
+	Line[91.5738mm 372.28mil 91.5738mm 10.2610mm 10.00mil 20.00mil "clearline,auto"]
+	Line[16.2788mm 5.9120mm 11.1422mm 5.9120mm 10.00mil 20.00mil "clearline,auto"]
+	Line[78.8738mm 372.28mil 80.0168mm 417.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[61.4990mm 25.0120mm 61.7530mm 25.2660mm 10.00mil 20.00mil "clearline,auto"]
+	Line[73.7938mm 372.28mil 72.1679mm 11.0818mm 10.00mil 20.00mil "clearline,auto"]
+	Line[11.1422mm 5.9120mm 9.1620mm 5.9120mm 10.00mil 20.00mil "clearline,auto"]
+	Line[67.7360mm 31.4890mm 67.7360mm 32.8340mm 10.00mil 20.00mil "clearline,auto"]
+	Line[13.4282mm 34.4110mm 14.8332mm 35.8160mm 10.00mil 20.00mil "clearline,auto"]
+	Line[86.8875mm 32.6860mm 85.9858mm 31.7843mm 10.00mil 20.00mil "clearline,auto"]
+	Line[101.0201mm 39.4964mm 123.3340mm 17.1825mm 10.00mil 20.00mil "clearline,auto"]
+	Line[99.1151mm 39.4964mm 101.0201mm 39.4964mm 10.00mil 20.00mil "clearline,auto"]
+	Line[11.9360mm 3.6260mm 4.5265mm 3.6260mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.3760mm 42.5920mm 90.4560mm 37.5120mm 10.00mil 20.00mil "clearline,auto"]
+	Line[12.1130mm 42.5920mm 85.3760mm 42.5920mm 10.00mil 20.00mil "clearline,auto"]
+	Line[75.8005mm 38.0660mm 75.3560mm 37.6215mm 10.00mil 20.00mil "clearline,auto"]
+	Line[83.9790mm 29.0490mm 83.8980mm 29.1300mm 10.00mil 20.00mil "clearline,auto"]
+	Line[30.9155mm 38.0082mm 33.5047mm 40.5974mm 10.00mil 20.00mil "clearline,auto"]
+	Line[28.6559mm 27.7942mm 30.9155mm 30.0538mm 10.00mil 20.00mil "clearline,auto"]
+	Line[48.9504mm 4.9028mm 48.9504mm 10.7008mm 10.00mil 20.00mil "clearline,auto"]
+	Line[54.3703mm 2.7027mm 46.9408mm 2.7027mm 10.00mil 20.00mil "clearline,auto"]
+	Line[64.5303mm 2.7027mm 59.6408mm 2.7027mm 10.00mil 20.00mil "clearline,auto"]
+	Line[80.7153mm 627.28mil 75.1908mm 409.78mil 10.00mil 20.00mil "clearline,auto"]
+	Line[83.9538mm 4.5955mm 83.9538mm 9.4559mm 10.00mil 20.00mil "clearline,auto"]
+	Line[84.3140mm 2.4157mm 79.4245mm 2.4157mm 10.00mil 20.00mil "clearline,auto"]
+	Line[89.1860mm 30.1460mm 86.4938mm 27.4538mm 10.00mil 20.00mil "clearline,auto"]
+	Line[99.9787mm 36.3468mm 98.9246mm 35.2927mm 10.00mil 20.00mil "clearline,auto"]
+	Line[91.8455mm 12.2676mm 89.0338mm 372.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[91.3121mm 14.2742mm 86.4938mm 372.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[62.7420mm 40.3520mm 75.3560mm 40.3520mm 10.00mil 20.00mil "clearline,auto"]
+	Line[84.9063mm 717.28mil 85.3508mm 699.78mil 10.00mil 20.00mil "clearline,auto"]
+	Line[68.4065mm 717.28mil 84.9063mm 717.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[77.3880mm 37.5580mm 76.4990mm 36.6690mm 10.00mil 20.00mil "clearline,auto"]
+	Line[21.2735mm 41.6134mm 54.2956mm 41.6134mm 10.00mil 20.00mil "clearline,auto"]
+	Line[5.4790mm 25.5528mm 10.8882mm 30.9620mm 10.00mil 20.00mil "clearline,auto"]
+	Line[66.6161mm 22.2180mm 66.2224mm 21.8243mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.4778mm 28.1523mm 85.4778mm 32.1018mm 10.00mil 20.00mil "clearline,auto"]
+	Line[86.9637mm 33.5877mm 85.4778mm 32.1018mm 10.00mil 20.00mil "clearline,auto"]
+	Line[47.9467mm 24.3928mm 33.0278mm 24.3928mm 10.00mil 20.00mil "clearline,auto"]
+	Line[57.1927mm 18.7018mm 46.0916mm 18.7018mm 10.00mil 20.00mil "clearline,auto"]
+	Line[43.4895mm 40.6328mm 54.4507mm 40.6328mm 10.00mil 20.00mil "clearline,auto"]
+	Line[52.9265mm 35.1720mm 52.7360mm 34.9815mm 10.00mil 20.00mil "clearline,auto"]
+	Line[91.6800mm 2.6062mm 91.6800mm 9.3497mm 10.00mil 20.00mil "clearline,auto"]
+	Line[56.8254mm 38.2581mm 54.4507mm 40.6328mm 10.00mil 20.00mil "clearline,auto"]
+	Line[27.5510mm 36.4831mm 24.6350mm 39.3991mm 10.00mil 20.00mil "clearline,auto"]
+	Line[126.1280mm 33.8957mm 124.5659mm 32.3336mm 10.00mil 20.00mil "clearline,auto"]
+	Line[77.6420mm 35.5260mm 76.4990mm 36.6690mm 10.00mil 20.00mil "clearline,auto"]
+	Line[77.6420mm 33.1765mm 77.6420mm 35.5260mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.1220mm 40.3060mm 83.9790mm 41.4490mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.1220mm 37.9565mm 85.1220mm 40.3060mm 10.00mil 20.00mil "clearline,auto"]
+	Line[55.0220mm 32.8860mm 53.8790mm 34.0290mm 10.00mil 20.00mil "clearline,auto"]
+	Line[39.2985mm 14.3674mm 31.4321mm 22.2338mm 10.00mil 20.00mil "clearline,auto"]
+	Line[60.3560mm 27.5520mm 52.7360mm 27.5520mm 10.00mil 20.00mil "clearline,auto"]
+	Line[40.5780mm 40.4423mm 39.9149mm 41.1054mm 10.00mil 20.00mil "clearline,auto"]
+	Line[40.5780mm 27.9328mm 40.5780mm 40.4423mm 10.00mil 20.00mil "clearline,auto"]
+	Line[77.6420mm 27.9060mm 76.9260mm 28.6220mm 10.00mil 20.00mil "clearline,auto"]
+	Line[77.6420mm 25.5565mm 77.6420mm 27.9060mm 10.00mil 20.00mil "clearline,auto"]
+	Line[69.6514mm 10.2563mm 69.3339mm 10.5738mm 10.00mil 20.00mil "clearline,auto"]
+	Line[89.1400mm 2.6062mm 88.4415mm 1.9077mm 10.00mil 20.00mil "clearline,auto"]
+	Line[89.1400mm 6.8097mm 89.1400mm 2.6062mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.0968mm 409.78mil 84.9063mm 417.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[87.9970mm 5.8572mm 87.3778mm 6.4764mm 10.00mil 20.00mil "clearline,auto"]
+	Line[77.8370mm 6.2636mm 76.8037mm 7.2969mm 10.00mil 20.00mil "clearline,auto"]
+	Line[59.1963mm 8.4559mm 58.2214mm 9.4308mm 10.00mil 20.00mil "clearline,auto"]
+	Line[56.6563mm 8.4559mm 55.6814mm 9.4308mm 10.00mil 20.00mil "clearline,auto"]
+	Line[66.8163mm 2.8932mm 66.1178mm 2.1947mm 10.00mil 20.00mil "clearline,auto"]
+	Line[66.8163mm 4.7982mm 66.8163mm 2.8932mm 10.00mil 20.00mil "clearline,auto"]
+	Line[49.4584mm 10.3833mm 54.4749mm 15.3998mm 10.00mil 20.00mil "clearline,auto"]
+	Line[52.9733mm 4.9634mm 49.6489mm 8.2878mm 10.00mil 20.00mil "clearline,auto"]
+	Line[40.3780mm 9.7243mm 33.5843mm 2.9306mm 10.00mil 20.00mil "clearline,auto"]
+	Line[40.3780mm 22.2338mm 40.3780mm 9.7243mm 10.00mil 20.00mil "clearline,auto"]
+	Line[92.7420mm 40.3060mm 91.5990mm 41.4490mm 10.00mil 20.00mil "clearline,auto"]
+	Line[92.7420mm 35.4165mm 92.7420mm 40.3060mm 10.00mil 20.00mil "clearline,auto"]
+	Line[125.6200mm 35.3943mm 124.5659mm 34.3402mm 10.00mil 20.00mil "clearline,auto"]
+	Line[125.6200mm 39.3059mm 125.6200mm 35.3943mm 10.00mil 20.00mil "clearline,auto"]
+	Line[97.9086mm 39.1154mm 98.7976mm 40.0044mm 10.00mil 20.00mil "clearline,auto"]
+	Line[97.9086mm 37.8835mm 97.9086mm 39.1154mm 10.00mil 20.00mil "clearline,auto"]
+	Line[98.4166mm 37.5660mm 98.4166mm 38.7979mm 10.00mil 20.00mil "clearline,auto"]
+	Line[54.1574mm 15.9078mm 48.9504mm 10.7008mm 10.00mil 20.00mil "clearline,auto"]
+	Line[53.4980mm 36.5690mm 44.3785mm 27.4495mm 10.00mil 20.00mil "clearline,auto"]
+	Line[54.2956mm 41.6134mm 60.3560mm 35.5530mm 10.00mil 20.00mil "clearline,auto"]
+	Line[126.1280mm 39.6234mm 126.1280mm 33.8957mm 10.00mil 20.00mil "clearline,auto"]
+	Line[97.0069mm 39.0392mm 98.4801mm 40.5124mm 10.00mil 20.00mil "clearline,auto"]
+	Line[78.9800mm 6.8097mm 77.9848mm 7.8049mm 10.00mil 20.00mil "clearline,auto"]
+	Line[46.7503mm 13.1997mm 50.6014mm 17.0508mm 10.00mil 20.00mil "clearline,auto"]
+	Line[43.2990mm 11.8439mm 49.6489mm 18.1938mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.9858mm 31.7843mm 85.9858mm 31.7843mm 10.00mil 20.00mil "clearline,auto"]
+	Line[89.0338mm 372.28mil 89.0338mm 372.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[68.3814mm 18.1938mm 68.3814mm 18.1938mm 10.00mil 20.00mil "clearline,auto"]
+	Line[16.2381mm 36.5780mm 16.2381mm 36.5780mm 10.00mil 20.00mil "clearline,auto"]
+	Line[14.8332mm 35.8160mm 14.8332mm 35.8160mm 10.00mil 20.00mil "clearline,auto"]
+	Line[86.4938mm 372.28mil 86.4938mm 372.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[90.4560mm 37.5120mm 90.4560mm 37.5120mm 10.00mil 20.00mil "clearline,auto"]
+	Line[52.7360mm 19.6035mm 52.7360mm 19.6035mm 10.00mil 20.00mil "clearline,auto"]
+	Line[13.0790mm 4.7690mm 13.0790mm 4.7690mm 10.00mil 20.00mil "clearline,auto"]
+	Line[91.5990mm 41.4490mm 91.5990mm 41.4490mm 10.00mil 20.00mil "clearline,auto"]
+	Line[83.8980mm 29.1300mm 83.8980mm 29.1300mm 10.00mil 20.00mil "clearline,auto"]
+	Line[39.2985mm 23.3133mm 39.2985mm 23.3133mm 10.00mil 20.00mil "clearline,auto"]
+	Line[47.8933mm 3.8457mm 47.8933mm 3.8457mm 10.00mil 20.00mil "clearline,auto"]
+	Line[49.6489mm 8.2878mm 49.6489mm 8.2878mm 10.00mil 20.00mil "clearline,auto"]
+	Line[55.5133mm 3.8457mm 55.5133mm 3.8457mm 10.00mil 20.00mil "clearline,auto"]
+	Line[50.6014mm 17.0508mm 50.6014mm 17.0508mm 10.00mil 20.00mil "clearline,auto"]
+	Line[55.6814mm 9.4308mm 55.6814mm 9.4308mm 10.00mil 20.00mil "clearline,auto"]
+	Line[65.6733mm 3.8457mm 65.6733mm 3.8457mm 10.00mil 20.00mil "clearline,auto"]
+	Line[58.2214mm 9.4308mm 58.2214mm 9.4308mm 10.00mil 20.00mil "clearline,auto"]
+	Line[82.9170mm 3.5587mm 82.9170mm 3.5587mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.4570mm 3.5587mm 85.4570mm 3.5587mm 10.00mil 20.00mil "clearline,auto"]
+	Line[77.9848mm 7.8049mm 77.9848mm 7.8049mm 10.00mil 20.00mil "clearline,auto"]
+	Line[87.3778mm 6.4764mm 87.3778mm 6.4764mm 10.00mil 20.00mil "clearline,auto"]
+	Line[88.9653mm 6.9844mm 88.9653mm 6.9844mm 10.00mil 20.00mil "clearline,auto"]
+	Line[76.9260mm 28.6220mm 76.9260mm 28.6220mm 10.00mil 20.00mil "clearline,auto"]
+	Line[39.4985mm 26.8533mm 39.4985mm 26.8533mm 10.00mil 20.00mil "clearline,auto"]
+	Line[61.4990mm 26.4090mm 61.4990mm 26.4090mm 10.00mil 20.00mil "clearline,auto"]
+	Line[61.4990mm 39.1090mm 61.4990mm 39.1090mm 10.00mil 20.00mil "clearline,auto"]
+	Line[31.4321mm 22.2338mm 31.4321mm 22.2338mm 10.00mil 20.00mil "clearline,auto"]
+	Line[68.1170mm 23.2070mm 68.1170mm 23.2070mm 10.00mil 20.00mil "clearline,auto"]
+	Line[53.8790mm 34.0290mm 53.8790mm 34.0290mm 10.00mil 20.00mil "clearline,auto"]
+	Line[99.3056mm 7.4924mm 99.3056mm 7.4924mm 10.00mil 20.00mil "clearline,auto"]
+	Line[76.4990mm 36.6690mm 76.4990mm 36.6690mm 10.00mil 20.00mil "clearline,auto"]
+	Line[83.9790mm 41.4490mm 83.9790mm 41.4490mm 10.00mil 20.00mil "clearline,auto"]
+	Line[76.4990mm 36.6690mm 76.4990mm 36.6690mm 10.00mil 20.00mil "clearline,auto"]
+	Line[10.8882mm 30.9620mm 10.8882mm 30.9620mm 10.00mil 20.00mil "clearline,auto"]
+	Line[66.2224mm 21.8243mm 66.2224mm 21.8243mm 10.00mil 20.00mil "clearline,auto"]
+	Line[24.6350mm 39.3991mm 24.6350mm 39.3991mm 10.00mil 20.00mil "clearline,auto"]
+	Line[57.5864mm 19.0955mm 57.5864mm 19.0955mm 10.00mil 20.00mil "clearline,auto"]
+	Text[91.6790mm 47.4690mm 0 100 "LCD Display Decoder Ver. 1 (Danh & Ravi) 2019" "clearline"]
+)
+Layer(2 "bottom" "copper")
+(
+	Line[85.6300mm 33.0418mm 85.6300mm 41.8935mm 10.00mil 20.00mil "clearline,auto"]
+	Line[101.0201mm 39.4964mm 101.2106mm 39.3059mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.1220mm 35.2260mm 83.9790mm 36.3690mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.1111mm 772.28mil 82.3280mm 22.3990mm 10.00mil 20.00mil "clearline,auto"]
+	Line[99.9787mm 18.2874mm 98.9246mm 19.3415mm 10.00mil 20.00mil "clearline,auto"]
+	Line[83.9790mm 31.2890mm 85.1220mm 30.1460mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.2585mm 20.2940mm 82.8360mm 894.35mil 10.00mil 20.00mil "clearline,auto"]
+	Line[3927.30mil 22.5260mm 98.9246mm 23.3547mm 10.00mil 20.00mil "clearline,auto"]
+	Line[44.3785mm 39.5533mm 43.2990mm 40.6328mm 10.00mil 20.00mil "clearline,auto"]
+	Line[20.2557mm 2.9306mm 20.0652mm 3.1211mm 10.00mil 20.00mil "clearline,auto"]
+	Line[50.4333mm 3.8457mm 51.8303mm 5.2427mm 10.00mil 20.00mil "clearline,auto"]
+	Line[61.5458mm 2.7027mm 61.7363mm 2.8932mm 10.00mil 20.00mil "clearline,auto"]
+	Line[60.5933mm 3.8457mm 56.1512mm 8.2878mm 10.00mil 20.00mil "clearline,auto"]
+	Line[81.4138mm 672.28mil 80.2708mm 717.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[80.3770mm 3.5587mm 77.5405mm 6.3952mm 10.00mil 20.00mil "clearline,auto"]
+	Line[90.5370mm 3.5587mm 90.1768mm 3.9189mm 10.00mil 20.00mil "clearline,auto"]
+	Line[56.9514mm 15.3998mm 55.6814mm 16.6698mm 10.00mil 20.00mil "clearline,auto"]
+	Line[66.2859mm 15.3998mm 67.2384mm 16.3523mm 10.00mil 20.00mil "clearline,auto"]
+	Line[81.4773mm 752.28mil 82.5568mm 709.78mil 10.00mil 20.00mil "clearline,auto"]
+	Line[28.6432mm 22.3557mm 28.4527mm 22.5462mm 10.00mil 20.00mil "clearline,auto"]
+	Line[66.8163mm 7.4039mm 66.8163mm 8.4559mm 10.00mil 20.00mil "clearline,auto"]
+	Line[63.1500mm 37.4580mm 61.4990mm 39.1090mm 10.00mil 20.00mil "clearline,auto"]
+	Line[1249.30mil 25.6352mm 33.3142mm 27.2172mm 10.00mil 20.00mil "clearline,auto"]
+	Line[56.9143mm 31.9843mm 60.3560mm 35.4260mm 10.00mil 20.00mil "clearline,auto"]
+	Line[52.9265mm 32.8860mm 2014.20mil 34.6518mm 10.00mil 20.00mil "clearline,auto"]
+	Line[55.2887mm 32.8860mm 55.9237mm 33.5210mm 10.00mil 20.00mil "clearline,auto"]
+	Line[55.9237mm 33.5210mm 59.8480mm 37.4453mm 10.00mil 20.00mil "clearline,auto"]
+	Line[44.3785mm 26.8533mm 44.3785mm 36.4164mm 10.00mil 20.00mil "clearline,auto"]
+	Line[2009.20mil 25.2658mm 50.1607mm 24.3928mm 10.00mil 20.00mil "clearline,auto"]
+	Line[61.4990mm 28.9490mm 62.6420mm 30.0920mm 10.00mil 20.00mil "clearline,auto"]
+	Line[53.9427mm 41.1408mm 55.0220mm 40.0615mm 10.00mil 20.00mil "clearline,auto"]
+	Line[65.8968mm 1.5267mm 64.5303mm 2.8932mm 10.00mil 20.00mil "clearline,auto"]
+	Line[90.6005mm 1.5267mm 92.7168mm 3.6430mm 10.00mil 20.00mil "clearline,auto"]
+	Line[56.8752mm 18.1938mm 55.1734mm 19.8956mm 10.00mil 20.00mil "clearline,auto"]
+	Line[57.2689mm 15.9078mm 57.0784mm 16.0983mm 10.00mil 20.00mil "clearline,auto"]
+	Line[55.9237mm 39.9853mm 54.2602mm 41.6488mm 10.00mil 20.00mil "clearline,auto"]
+	Line[15.6190mm 4.7690mm 15.7142mm 4.8642mm 10.00mil 20.00mil "clearline,auto"]
+	Line[10.8882mm 30.9620mm 11.9042mm 31.9780mm 10.00mil 20.00mil "clearline,auto"]
+	Line[65.8414mm 17.0508mm 66.7304mm 17.9398mm 10.00mil 20.00mil "clearline,auto"]
+	Line[75.1908mm 3.6649mm 75.2970mm 3.5587mm 10.00mil 20.00mil "clearline,auto"]
+	Line[69.3322mm 20.9226mm 66.7304mm 18.3208mm 10.00mil 20.00mil "clearline,auto"]
+	Line[9.6087mm 29.4380mm 15.7142mm 23.3325mm 10.00mil 20.00mil "clearline,auto"]
+	Line[55.9237mm 35.1720mm 55.9237mm 39.9853mm 10.00mil 20.00mil "clearline,auto"]
+	Line[19.7306mm 35.4350mm 23.0475mm 38.7519mm 10.00mil 20.00mil "clearline,auto"]
+	Line[19.7306mm 35.4350mm 15.0437mm 35.4350mm 10.00mil 20.00mil "clearline,auto"]
+	Line[11.9042mm 31.9780mm 11.9042mm 32.2955mm 10.00mil 20.00mil "clearline,auto"]
+	Line[64.6984mm 15.9078mm 65.8414mm 17.0508mm 10.00mil 20.00mil "clearline,auto"]
+	Line[64.6984mm 15.9078mm 57.2689mm 15.9078mm 10.00mil 20.00mil "clearline,auto"]
+	Line[56.8752mm 18.1938mm 57.0784mm 17.9906mm 10.00mil 20.00mil "clearline,auto"]
+	Line[53.8790mm 31.4890mm 55.1734mm 30.1946mm 10.00mil 20.00mil "clearline,auto"]
+	Line[73.4526mm 20.9226mm 76.4990mm 23.9690mm 10.00mil 20.00mil "clearline,auto"]
+	Line[73.4526mm 20.9226mm 69.3322mm 20.9226mm 10.00mil 20.00mil "clearline,auto"]
+	Line[90.6005mm 1.5267mm 65.8968mm 1.5267mm 10.00mil 20.00mil "clearline,auto"]
+	Line[64.5303mm 10.2152mm 64.8889mm 10.5738mm 10.00mil 20.00mil "clearline,auto"]
+	Line[28.6295mm 40.3037mm 1160.10mil 41.1408mm 10.00mil 20.00mil "clearline,auto"]
+	Line[28.6295mm 34.9270mm 28.6295mm 40.3037mm 10.00mil 20.00mil "clearline,auto"]
+	Line[28.6295mm 34.9270mm 24.6350mm 30.9325mm 10.00mil 20.00mil "clearline,auto"]
+	Line[24.6350mm 26.6991mm 24.6350mm 30.9325mm 10.00mil 20.00mil "clearline,auto"]
+	Line[53.1170mm 25.6470mm 53.8790mm 26.4090mm 10.00mil 20.00mil "clearline,auto"]
+	Line[52.7358mm 25.2658mm 53.1170mm 25.6470mm 10.00mil 20.00mil "clearline,auto"]
+	Line[44.3785mm 10.6133mm 48.9504mm 15.1852mm 10.00mil 20.00mil "clearline,auto"]
+	Line[34.2185mm 23.3133mm 35.2980mm 24.3928mm 10.00mil 20.00mil "clearline,auto"]
+	Line[50.1607mm 24.3928mm 35.2980mm 24.3928mm 10.00mil 20.00mil "clearline,auto"]
+	Line[49.4584mm 13.7247mm 45.2675mm 9.5338mm 10.00mil 20.00mil "clearline,auto"]
+	Line[49.4584mm 13.7247mm 49.4584mm 19.4484mm 10.00mil 20.00mil "clearline,auto"]
+	Line[53.8790mm 23.8690mm 50.5152mm 20.5052mm 10.00mil 20.00mil "clearline,auto"]
+	Line[35.4378mm 38.4738mm 42.3211mm 38.4738mm 10.00mil 20.00mil "clearline,auto"]
+	Line[45.2675mm 25.7738mm 48.4424mm 28.9487mm 10.00mil 20.00mil "clearline,auto"]
+	Line[45.2675mm 25.7738mm 35.4378mm 25.7738mm 10.00mil 20.00mil "clearline,auto"]
+	Line[35.4378mm 25.7738mm 34.3937mm 26.8179mm 10.00mil 20.00mil "clearline,auto"]
+	Line[67.7360mm 35.2720mm 68.8790mm 34.1290mm 10.00mil 20.00mil "clearline,auto"]
+	Line[67.7360mm 35.2720mm 62.7560mm 40.2520mm 10.00mil 20.00mil "clearline,auto"]
+	Line[55.2887mm 32.8860mm 52.9265mm 32.8860mm 10.00mil 20.00mil "clearline,auto"]
+	Line[56.9143mm 31.9843mm 56.8254mm 31.9843mm 10.00mil 20.00mil "clearline,auto"]
+	Line[29.5322mm 10.7352mm 32.2932mm 13.4962mm 10.00mil 20.00mil "clearline,auto"]
+	Line[41.2797mm 13.8899mm 40.8860mm 13.4962mm 10.00mil 20.00mil "clearline,auto"]
+	Line[57.5864mm 19.0955mm 60.8232mm 22.3323mm 10.00mil 20.00mil "clearline,auto"]
+	Line[63.1500mm 23.4245mm 62.0578mm 22.3323mm 10.00mil 20.00mil "clearline,auto"]
+	Line[63.1500mm 23.4245mm 63.1500mm 37.4580mm 10.00mil 20.00mil "clearline,auto"]
+	Line[81.5200mm 2.6062mm 81.3295mm 2.4157mm 10.00mil 20.00mil "clearline,auto"]
+	Line[81.5200mm 2.6062mm 81.5200mm 4.2572mm 10.00mil 20.00mil "clearline,auto"]
+	Line[89.0338mm 9.4559mm 84.2796mm 4.7017mm 10.00mil 20.00mil "clearline,auto"]
+	Line[54.6654mm 18.0668mm 55.6814mm 17.0508mm 10.00mil 20.00mil "clearline,auto"]
+	Line[52.7360mm 19.6035mm 53.1287mm 19.6035mm 10.00mil 20.00mil "clearline,auto"]
+	Line[30.9907mm 22.3557mm 32.7453mm 24.1103mm 10.00mil 20.00mil "clearline,auto"]
+	Line[30.9907mm 22.3557mm 28.6432mm 22.3557mm 10.00mil 20.00mil "clearline,auto"]
+	Line[27.5510mm 28.3022mm 28.4527mm 27.4005mm 10.00mil 20.00mil "clearline,auto"]
+	Line[82.3663mm 627.28mil 80.0168mm 627.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[81.4773mm 752.28mil 68.3430mm 752.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[66.2859mm 15.3998mm 56.9514mm 15.3998mm 10.00mil 20.00mil "clearline,auto"]
+	Line[81.4138mm 9.4559mm 81.4138mm 372.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[89.9863mm 417.28mil 82.5568mm 417.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[73.7938mm 672.28mil 72.6508mm 627.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[72.6508mm 7.9192mm 72.6508mm 627.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[77.5405mm 6.3952mm 76.0925mm 6.3952mm 10.00mil 20.00mil "clearline,auto"]
+	Line[76.3338mm 672.28mil 75.1908mm 627.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[75.1908mm 3.6649mm 75.1908mm 627.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[71.7491mm 4.5666mm 71.7491mm 674.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[72.7570mm 3.5587mm 71.7491mm 4.5666mm 10.00mil 20.00mil "clearline,auto"]
+	Line[100.0676mm 34.3402mm 99.9787mm 34.3402mm 10.00mil 20.00mil "clearline,auto"]
+	Line[98.5309mm 27.6060mm 98.5309mm 32.8924mm 10.00mil 20.00mil "clearline,auto"]
+	Line[88.2589mm 27.6060mm 88.2589mm 33.5877mm 10.00mil 20.00mil "clearline,auto"]
+	Line[66.2224mm 21.8243mm 64.6984mm 20.3003mm 10.00mil 20.00mil "clearline,auto"]
+	Line[63.3014mm 17.0508mm 64.6984mm 18.4478mm 10.00mil 20.00mil "clearline,auto"]
+	Line[56.1512mm 8.2878mm 54.2844mm 8.2878mm 10.00mil 20.00mil "clearline,auto"]
+	Line[61.5458mm 2.7027mm 59.1963mm 2.7027mm 10.00mil 20.00mil "clearline,auto"]
+	Line[59.1963mm 2.7027mm 58.0533mm 3.8457mm 10.00mil 20.00mil "clearline,auto"]
+	Line[21.2082mm 4.0736mm 22.3512mm 5.2166mm 10.00mil 20.00mil "clearline,auto"]
+	Line[30.6117mm 8.9750mm 26.8533mm 5.2166mm 10.00mil 20.00mil "clearline,auto"]
+	Line[44.3785mm 15.3758mm 41.9909mm 12.9882mm 10.00mil 20.00mil "clearline,auto"]
+	Line[44.3785mm 15.3758mm 44.3785mm 23.3133mm 10.00mil 20.00mil "clearline,auto"]
+	Line[22.6052mm 2.9306mm 23.7482mm 4.0736mm 10.00mil 20.00mil "clearline,auto"]
+	Line[22.6052mm 2.9306mm 20.2557mm 2.9306mm 10.00mil 20.00mil "clearline,auto"]
+	Line[20.0652mm 5.0261mm 20.7637mm 5.7246mm 10.00mil 20.00mil "clearline,auto"]
+	Line[25.7145mm 9.8208mm 25.7145mm 28.0786mm 10.00mil 20.00mil "clearline,auto"]
+	Line[30.7885mm 33.1526mm 1141.40mil 31.3557mm 10.00mil 20.00mil "clearline,auto"]
+	Line[30.7885mm 33.1526mm 30.7885mm 37.8812mm 10.00mil 20.00mil "clearline,auto"]
+	Line[43.2990mm 40.6328mm 33.5401mm 40.6328mm 10.00mil 20.00mil "clearline,auto"]
+	Line[100.0676mm 22.3006mm 3930.80mil 22.5260mm 10.00mil 20.00mil "clearline,auto"]
+	Line[3930.80mil 22.5260mm 3927.30mil 22.5260mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.3760mm 24.8120mm 3837.30mil 24.8120mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.3760mm 24.8120mm 83.9790mm 26.2090mm 10.00mil 20.00mil "clearline,auto"]
+	Line[83.1360mm 32.9860mm 83.9790mm 33.8290mm 10.00mil 20.00mil "clearline,auto"]
+	Line[83.1360mm 32.9860mm 70.2760mm 32.9860mm 10.00mil 20.00mil "clearline,auto"]
+	Line[100.0676mm 20.2940mm 85.2585mm 20.2940mm 10.00mil 20.00mil "clearline,auto"]
+	Line[82.8360mm 27.1615mm 83.0265mm 27.3520mm 10.00mil 20.00mil "clearline,auto"]
+	Line[100.0676mm 18.2874mm 99.9787mm 18.2874mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.1111mm 772.28mil 98.6502mm 772.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[82.3280mm 31.7335mm 83.0265mm 32.4320mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.1220mm 32.8765mm 85.1220mm 35.2260mm 10.00mil 20.00mil "clearline,auto"]
+	Line[100.1565mm 16.2808mm 100.0676mm 16.2808mm 10.00mil 20.00mil "clearline,auto"]
+	Line[91.5990mm 38.9090mm 92.1864mm 39.4964mm 10.00mil 20.00mil "clearline,auto"]
+	Line[91.5990mm 26.2090mm 97.0069mm 31.6169mm 10.00mil 20.00mil "clearline,auto"]
+	Line[90.4560mm 29.8920mm 91.5990mm 28.7490mm 10.00mil 20.00mil "clearline,auto"]
+	Line[9.3912mm 37.3302mm 15.1610mm 43.1000mm 10.00mil 20.00mil "clearline,auto"]
+	Line[9.3912mm 29.6555mm 9.3912mm 37.3302mm 10.00mil 20.00mil "clearline,auto"]
+	Line[18.7781mm 36.5780mm 18.7781mm 37.3400mm 10.00mil 20.00mil "clearline,auto"]
+	Line[19.5401mm 38.1020mm 18.7781mm 37.3400mm 10.00mil 20.00mil "clearline,auto"]
+	Line[19.5401mm 38.1020mm 24.0301mm 42.5920mm 10.00mil 20.00mil "clearline,auto"]
+	Line[84.9315mm 42.5920mm 24.0301mm 42.5920mm 10.00mil 20.00mil "clearline,auto"]
+	Line[86.8875mm 31.7843mm 85.6300mm 33.0418mm 10.00mil 20.00mil "clearline,auto"]
+	Line[52.7358mm 25.2658mm 2009.20mil 25.2658mm 10.00mil 20.00mil "clearline,auto"]
+	Line[57.0784mm 16.0983mm 57.0784mm 17.9906mm 10.00mil 20.00mil "clearline,auto"]
+	Line[55.1734mm 19.8956mm 55.1734mm 30.1946mm 10.00mil 20.00mil "clearline,auto"]
+	Line[89.0338mm 672.28mil 90.1768mm 627.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[64.5303mm 2.8932mm 64.5303mm 10.2152mm 10.00mil 20.00mil "clearline,auto"]
+	Line[34.2185mm 10.6133mm 35.2980mm 9.5338mm 10.00mil 20.00mil "clearline,auto"]
+	Line[34.3937mm 39.5179mm 35.4378mm 38.4738mm 10.00mil 20.00mil "clearline,auto"]
+	Line[2014.20mil 34.6518mm 2014.20mil 39.1090mm 10.00mil 20.00mil "clearline,auto"]
+	Line[65.8414mm 9.4308mm 66.6034mm 8.6688mm 10.00mil 20.00mil "clearline,auto"]
+	Line[71.8045mm 2.4157mm 66.8163mm 7.4039mm 10.00mil 20.00mil "clearline,auto"]
+	Line[28.4527mm 22.5462mm 28.4527mm 27.4005mm 10.00mil 20.00mil "clearline,auto"]
+	Line[78.8738mm 672.28mil 80.0168mm 627.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[55.6814mm 16.6698mm 55.6814mm 17.0508mm 10.00mil 20.00mil "clearline,auto"]
+	Line[53.1414mm 9.4308mm 54.2844mm 8.2878mm 10.00mil 20.00mil "clearline,auto"]
+	Line[20.0652mm 3.1211mm 20.0652mm 5.0261mm 10.00mil 20.00mil "clearline,auto"]
+	Line[82.8360mm 894.35mil 82.8360mm 27.1615mm 10.00mil 20.00mil "clearline,auto"]
+	Line[82.3280mm 22.3990mm 82.3280mm 31.7335mm 10.00mil 20.00mil "clearline,auto"]
+	Line[90.4560mm 29.8920mm 90.4560mm 37.8930mm 10.00mil 20.00mil "clearline,auto"]
+	Line[9.6087mm 29.4380mm 9.3912mm 29.6555mm 10.00mil 20.00mil "clearline,auto"]
+	Line[81.4138mm 372.28mil 81.4138mm 9.4559mm 10.00mil 20.00mil "clearline,auto"]
+	Line[89.0338mm 372.28mil 89.0338mm 9.4559mm 10.00mil 20.00mil "clearline,auto"]
+	Line[2014.20mil 39.1090mm 53.8790mm 39.1090mm 10.00mil 20.00mil "clearline,auto"]
+	Line[81.4138mm 372.28mil 82.5568mm 417.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[15.1610mm 43.1000mm 85.2490mm 43.1000mm 10.00mil 20.00mil "clearline,auto"]
+	Line[97.0069mm 31.6169mm 97.0069mm 38.5947mm 10.00mil 20.00mil "clearline,auto"]
+	Line[92.1864mm 39.4964mm 101.0201mm 39.4964mm 10.00mil 20.00mil "clearline,auto"]
+	Line[84.6775mm 32.4320mm 85.1220mm 32.8765mm 10.00mil 20.00mil "clearline,auto"]
+	Line[83.0265mm 32.4320mm 84.6775mm 32.4320mm 10.00mil 20.00mil "clearline,auto"]
+	Line[98.6502mm 772.28mil 98.9246mm 19.3415mm 10.00mil 20.00mil "clearline,auto"]
+	Line[83.0265mm 27.3520mm 84.6775mm 27.3520mm 10.00mil 20.00mil "clearline,auto"]
+	Line[70.2760mm 32.9860mm 68.8790mm 31.5890mm 10.00mil 20.00mil "clearline,auto"]
+	Line[3837.30mil 24.8120mm 98.9246mm 23.3547mm 10.00mil 20.00mil "clearline,auto"]
+	Line[30.7885mm 37.8812mm 33.5401mm 40.6328mm 10.00mil 20.00mil "clearline,auto"]
+	Line[25.7145mm 28.0786mm 1141.40mil 31.3557mm 10.00mil 20.00mil "clearline,auto"]
+	Line[21.6183mm 5.7246mm 25.7145mm 9.8208mm 10.00mil 20.00mil "clearline,auto"]
+	Line[20.7637mm 5.7246mm 21.6183mm 5.7246mm 10.00mil 20.00mil "clearline,auto"]
+	Line[41.9909mm 12.9882mm 34.6249mm 12.9882mm 10.00mil 20.00mil "clearline,auto"]
+	Line[30.6117mm 8.9750mm 34.6249mm 12.9882mm 10.00mil 20.00mil "clearline,auto"]
+	Line[26.8533mm 5.2166mm 22.3512mm 5.2166mm 10.00mil 20.00mil "clearline,auto"]
+	Line[64.6984mm 18.4478mm 64.6984mm 20.3003mm 10.00mil 20.00mil "clearline,auto"]
+	Line[99.9787mm 34.3402mm 98.5309mm 32.8924mm 10.00mil 20.00mil "clearline,auto"]
+	Line[53.1287mm 19.6035mm 54.6654mm 18.0668mm 10.00mil 20.00mil "clearline,auto"]
+	Line[84.2796mm 4.7017mm 81.9645mm 4.7017mm 10.00mil 20.00mil "clearline,auto"]
+	Line[81.5200mm 4.2572mm 81.9645mm 4.7017mm 10.00mil 20.00mil "clearline,auto"]
+	Line[81.3295mm 2.4157mm 71.8045mm 2.4157mm 10.00mil 20.00mil "clearline,auto"]
+	Line[62.0578mm 22.3323mm 60.8232mm 22.3323mm 10.00mil 20.00mil "clearline,auto"]
+	Line[40.8860mm 13.4962mm 32.2932mm 13.4962mm 10.00mil 20.00mil "clearline,auto"]
+	Line[1249.30mil 25.6352mm 29.5322mm 23.4352mm 10.00mil 20.00mil "clearline,auto"]
+	Line[48.4424mm 1432.70mil 2014.20mil 39.1090mm 10.00mil 20.00mil "clearline,auto"]
+	Line[48.4424mm 28.9487mm 48.4424mm 1432.70mil 10.00mil 20.00mil "clearline,auto"]
+	Line[49.4584mm 19.4484mm 50.5152mm 20.5052mm 10.00mil 20.00mil "clearline,auto"]
+	Line[48.9504mm 23.1825mm 2009.20mil 25.2658mm 10.00mil 20.00mil "clearline,auto"]
+	Line[48.9504mm 15.1852mm 48.9504mm 23.1825mm 10.00mil 20.00mil "clearline,auto"]
+	Line[1160.10mil 41.1408mm 53.9427mm 41.1408mm 10.00mil 20.00mil "clearline,auto"]
+	Line[66.7304mm 10.5738mm 68.1401mm 11.9835mm 10.00mil 20.00mil "clearline,auto"]
+	Line[64.8889mm 10.5738mm 66.7304mm 10.5738mm 10.00mil 20.00mil "clearline,auto"]
+	Line[15.0437mm 35.4350mm 11.9042mm 32.2955mm 10.00mil 20.00mil "clearline,auto"]
+	Line[23.0475mm 38.7519mm 23.0475mm 39.7801mm 10.00mil 20.00mil "clearline,auto"]
+	Line[15.7142mm 23.3325mm 15.7142mm 4.8642mm 10.00mil 20.00mil "clearline,auto"]
+	Line[24.9162mm 41.6488mm 23.0475mm 39.7801mm 10.00mil 20.00mil "clearline,auto"]
+	Line[92.7168mm 527.28mil 90.1768mm 627.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[92.7168mm 3.6430mm 92.7168mm 527.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[55.0220mm 35.1720mm 53.8790mm 34.0290mm 10.00mil 20.00mil "clearline,auto"]
+	Line[55.0220mm 40.0615mm 55.0220mm 35.1720mm 10.00mil 20.00mil "clearline,auto"]
+	Line[62.6420mm 32.8860mm 61.4990mm 34.0290mm 10.00mil 20.00mil "clearline,auto"]
+	Line[62.6420mm 30.0920mm 62.6420mm 32.8860mm 10.00mil 20.00mil "clearline,auto"]
+	Line[44.3785mm 36.4164mm 42.3211mm 38.4738mm 10.00mil 20.00mil "clearline,auto"]
+	Line[59.8480mm 39.5535mm 60.5465mm 40.2520mm 10.00mil 20.00mil "clearline,auto"]
+	Line[59.8480mm 37.4453mm 59.8480mm 39.5535mm 10.00mil 20.00mil "clearline,auto"]
+	Line[60.3560mm 35.4260mm 61.4990mm 36.5690mm 10.00mil 20.00mil "clearline,auto"]
+	Line[33.3142mm 29.2764mm 41.6099mm 37.5721mm 10.00mil 20.00mil "clearline,auto"]
+	Line[33.3142mm 27.2172mm 33.3142mm 29.2764mm 10.00mil 20.00mil "clearline,auto"]
+	Line[66.8163mm 8.4559mm 66.6034mm 8.6688mm 10.00mil 20.00mil "clearline,auto"]
+	Line[82.5568mm 634.78mil 82.3663mm 627.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[82.5568mm 709.78mil 82.5568mm 634.78mil 10.00mil 20.00mil "clearline,auto"]
+	Line[67.2384mm 18.0033mm 68.3430mm 752.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[67.2384mm 16.3523mm 67.2384mm 18.0033mm 10.00mil 20.00mil "clearline,auto"]
+	Line[90.1768mm 409.78mil 89.9863mm 417.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[90.1768mm 3.9189mm 90.1768mm 409.78mil 10.00mil 20.00mil "clearline,auto"]
+	Line[72.8413mm 717.28mil 71.7491mm 674.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[80.2708mm 717.28mil 72.8413mm 717.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[61.7363mm 8.4559mm 60.7614mm 9.4308mm 10.00mil 20.00mil "clearline,auto"]
+	Line[61.7363mm 2.8932mm 61.7363mm 8.4559mm 10.00mil 20.00mil "clearline,auto"]
+	Line[51.8303mm 15.7397mm 53.1414mm 17.0508mm 10.00mil 20.00mil "clearline,auto"]
+	Line[51.8303mm 5.2427mm 51.8303mm 15.7397mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.1220mm 27.7965mm 84.6775mm 27.3520mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.1220mm 30.1460mm 85.1220mm 27.7965mm 10.00mil 20.00mil "clearline,auto"]
+	Line[101.2106mm 17.3349mm 100.1565mm 16.2808mm 10.00mil 20.00mil "clearline,auto"]
+	Line[101.2106mm 39.3059mm 101.2106mm 17.3349mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.6300mm 41.8935mm 84.9315mm 42.5920mm 10.00mil 20.00mil "clearline,auto"]
+	Line[85.2490mm 43.1000mm 90.4560mm 37.8930mm 10.00mil 20.00mil "clearline,auto"]
+	Line[62.7560mm 40.2520mm 60.5465mm 40.2520mm 10.00mil 20.00mil "clearline,auto"]
+	Line[45.2675mm 9.5338mm 35.2980mm 9.5338mm 10.00mil 20.00mil "clearline,auto"]
+	Line[66.7304mm 18.3208mm 66.7304mm 17.9398mm 10.00mil 20.00mil "clearline,auto"]
+	Line[54.2602mm 41.6488mm 24.9162mm 41.6488mm 10.00mil 20.00mil "clearline,auto"]
+	Line[50.5152mm 20.5052mm 50.5152mm 20.5052mm 10.00mil 20.00mil "clearline,auto"]
+	Line[2009.20mil 25.2658mm 2009.20mil 25.2658mm 10.00mil 20.00mil "clearline,auto"]
+	Line[98.9246mm 19.3415mm 98.9246mm 19.3415mm 10.00mil 20.00mil "clearline,auto"]
+	Line[98.9246mm 23.3547mm 98.9246mm 23.3547mm 10.00mil 20.00mil "clearline,auto"]
+	Line[54.6654mm 18.0668mm 54.6654mm 18.0668mm 10.00mil 20.00mil "clearline,auto"]
+	Line[67.7360mm 35.2720mm 67.7360mm 35.2720mm 10.00mil 20.00mil "clearline,auto"]
+	Line[2014.20mil 39.1090mm 2014.20mil 39.1090mm 10.00mil 20.00mil "clearline,auto"]
+	Line[9.6087mm 29.4380mm 9.6087mm 29.4380mm 10.00mil 20.00mil "clearline,auto"]
+	Line[91.5990mm 26.2090mm 91.5990mm 26.2090mm 10.00mil 20.00mil "clearline,auto"]
+	Line[91.5990mm 38.9090mm 91.5990mm 38.9090mm 10.00mil 20.00mil "clearline,auto"]
+	Line[83.9790mm 31.2890mm 83.9790mm 31.2890mm 10.00mil 20.00mil "clearline,auto"]
+	Line[68.8790mm 31.5890mm 68.8790mm 31.5890mm 10.00mil 20.00mil "clearline,auto"]
+	Line[30.6117mm 8.9750mm 30.6117mm 8.9750mm 10.00mil 20.00mil "clearline,auto"]
+	Line[50.4333mm 3.8457mm 50.4333mm 3.8457mm 10.00mil 20.00mil "clearline,auto"]
+	Line[53.1414mm 17.0508mm 53.1414mm 17.0508mm 10.00mil 20.00mil "clearline,auto"]
+	Line[60.7614mm 9.4308mm 60.7614mm 9.4308mm 10.00mil 20.00mil "clearline,auto"]
+	Line[63.3014mm 17.0508mm 63.3014mm 17.0508mm 10.00mil 20.00mil "clearline,auto"]
+	Line[81.4138mm 672.28mil 81.4138mm 672.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[89.0338mm 9.4559mm 89.0338mm 9.4559mm 10.00mil 20.00mil "clearline,auto"]
+	Line[66.6034mm 8.6688mm 66.6034mm 8.6688mm 10.00mil 20.00mil "clearline,auto"]
+	Line[41.2797mm 13.8899mm 41.2797mm 13.8899mm 10.00mil 20.00mil "clearline,auto"]
+	Line[29.5322mm 23.4352mm 29.5322mm 23.4352mm 10.00mil 20.00mil "clearline,auto"]
+	Line[1249.30mil 25.6352mm 1249.30mil 25.6352mm 10.00mil 20.00mil "clearline,auto"]
+	Line[41.6099mm 37.5721mm 41.6099mm 37.5721mm 10.00mil 20.00mil "clearline,auto"]
+	Line[61.4990mm 36.5690mm 61.4990mm 36.5690mm 10.00mil 20.00mil "clearline,auto"]
+	Line[55.9237mm 33.5210mm 55.9237mm 33.5210mm 10.00mil 20.00mil "clearline,auto"]
+	Line[53.8790mm 23.8690mm 53.8790mm 23.8690mm 10.00mil 20.00mil "clearline,auto"]
+	Line[44.3785mm 10.6133mm 44.3785mm 10.6133mm 10.00mil 20.00mil "clearline,auto"]
+	Line[53.1170mm 25.6470mm 53.1170mm 25.6470mm 10.00mil 20.00mil "clearline,auto"]
+	Line[61.4990mm 28.9490mm 61.4990mm 28.9490mm 10.00mil 20.00mil "clearline,auto"]
+	Line[61.4990mm 34.0290mm 61.4990mm 34.0290mm 10.00mil 20.00mil "clearline,auto"]
+	Line[53.8790mm 34.0290mm 53.8790mm 34.0290mm 10.00mil 20.00mil "clearline,auto"]
+	Line[68.1401mm 11.9835mm 68.1401mm 11.9835mm 10.00mil 20.00mil "clearline,auto"]
+	Line[90.1768mm 627.28mil 90.1768mm 627.28mil 10.00mil 20.00mil "clearline,auto"]
+	Line[90.5370mm 3.5587mm 90.5370mm 3.5587mm 10.00mil 20.00mil "clearline,auto"]
+)
+Layer(3 "outline" "copper")
+(
+)
+Layer(4 "bottom silk" "silk")
+(
+)
+Layer(5 "top silk" "silk")
+(
+)
+NetList()
+(
+	Net("+3.3V" "(unknown)")
+	(
+		Connect("C2-2")
+		Connect("U3-1")
+		Connect("U200-31")
+		Connect("U300-3")
+	)
+	Net("+5V" "(unknown)")
+	(
+		Connect("C1-2")
+		Connect("CONN5-1")
+		Connect("U1-4")
+		Connect("U2-14")
+		Connect("U105-7")
+		Connect("U106-7")
+		Connect("U300-1")
+	)
+	Net("GND" "(unknown)")
+	(
+		Connect("C1-1")
+		Connect("C2-1")
+		Connect("CONN5-2")
+		Connect("R101-1")
+		Connect("U1-11")
+		Connect("U2-2")
+		Connect("U2-6")
+		Connect("U2-7")
+		Connect("U2-9")
+		Connect("U2-13")
+		Connect("U3-8")
+		Connect("U105-8")
+		Connect("U106-8")
+		Connect("U200-1")
+		Connect("U200-32")
+		Connect("U300-2")
+	)
+	Net("unnamed_net1" "(unknown)")
+	(
+		Connect("R101-2")
+		Connect("R110-1")
+		Connect("U1-3")
+		Connect("U1-5")
+		Connect("U1-10")
+		Connect("U1-12")
+	)
+	Net("unnamed_net2" "(unknown)")
+	(
+		Connect("R102-1")
+		Connect("R106-2")
+		Connect("U1-2")
+	)
+	Net("unnamed_net3" "(unknown)")
+	(
+		Connect("R106-1")
+		Connect("U1-1")
+		Connect("U2-1")
+	)
+	Net("unnamed_net4" "(unknown)")
+	(
+		Connect("R103-1")
+		Connect("R107-2")
+		Connect("U1-6")
+	)
+	Net("unnamed_net5" "(unknown)")
+	(
+		Connect("R107-1")
+		Connect("U1-7")
+		Connect("U2-5")
+	)
+	Net("unnamed_net6" "(unknown)")
+	(
+		Connect("R104-1")
+		Connect("R108-2")
+		Connect("U1-9")
+	)
+	Net("unnamed_net7" "(unknown)")
+	(
+		Connect("R108-1")
+		Connect("U1-8")
+		Connect("U2-8")
+	)
+	Net("unnamed_net8" "(unknown)")
+	(
+		Connect("R105-1")
+		Connect("R109-2")
+		Connect("U1-13")
+	)
+	Net("unnamed_net9" "(unknown)")
+	(
+		Connect("R109-1")
+		Connect("U1-14")
+		Connect("U2-12")
+	)
+	Net("unnamed_net10" "(unknown)")
+	(
+		Connect("U105-11")
+		Connect("U106-11")
+		Connect("U200-4")
+	)
+	Net("unnamed_net11" "(unknown)")
+	(
+		Connect("U105-10")
+		Connect("U106-10")
+		Connect("U200-3")
+	)
+	Net("unnamed_net12" "(unknown)")
+	(
+		Connect("U105-9")
+		Connect("U106-9")
+		Connect("U200-2")
+	)
+	Net("unnamed_net13" "(unknown)")
+	(
+		Connect("R110-2")
+		Connect("U105-3")
+		Connect("U106-3")
+	)
+	Net("unnamed_net14" "(unknown)")
+	(
+		Connect("U105-6")
+		Connect("U200-15")
+	)
+	Net("unnamed_net15" "(unknown)")
+	(
+		Connect("CONN3-1")
+		Connect("U105-13")
+	)
+	Net("unnamed_net16" "(unknown)")
+	(
+		Connect("CONN3-2")
+		Connect("U105-14")
+	)
+	Net("unnamed_net17" "(unknown)")
+	(
+		Connect("CONN3-3")
+		Connect("U105-15")
+	)
+	Net("unnamed_net18" "(unknown)")
+	(
+		Connect("CONN3-4")
+		Connect("U105-12")
+	)
+	Net("unnamed_net19" "(unknown)")
+	(
+		Connect("CONN3-5")
+		Connect("U105-1")
+	)
+	Net("unnamed_net20" "(unknown)")
+	(
+		Connect("CONN3-6")
+		Connect("U105-5")
+	)
+	Net("unnamed_net21" "(unknown)")
+	(
+		Connect("CONN3-7")
+		Connect("U105-2")
+	)
+	Net("unnamed_net22" "(unknown)")
+	(
+		Connect("CONN3-8")
+		Connect("U105-4")
+	)
+	Net("unnamed_net23" "(unknown)")
+	(
+		Connect("U106-6")
+		Connect("U200-14")
+	)
+	Net("unnamed_net24" "(unknown)")
+	(
+		Connect("CONN2-1")
+		Connect("U106-13")
+	)
+	Net("unnamed_net25" "(unknown)")
+	(
+		Connect("CONN2-2")
+		Connect("U106-14")
+	)
+	Net("unnamed_net26" "(unknown)")
+	(
+		Connect("CONN2-3")
+		Connect("U106-15")
+	)
+	Net("unnamed_net27" "(unknown)")
+	(
+		Connect("CONN2-4")
+		Connect("U106-12")
+	)
+	Net("unnamed_net28" "(unknown)")
+	(
+		Connect("CONN2-5")
+		Connect("U106-1")
+	)
+	Net("unnamed_net29" "(unknown)")
+	(
+		Connect("CONN2-6")
+		Connect("U106-5")
+	)
+	Net("unnamed_net30" "(unknown)")
+	(
+		Connect("CONN2-7")
+		Connect("U106-2")
+	)
+	Net("unnamed_net31" "(unknown)")
+	(
+		Connect("CONN2-8")
+		Connect("U106-4")
+	)
+	Net("unnamed_net32" "(unknown)")
+	(
+		Connect("CONN1-1")
+		Connect("R102-2")
+	)
+	Net("unnamed_net33" "(unknown)")
+	(
+		Connect("CONN1-2")
+		Connect("R103-2")
+	)
+	Net("unnamed_net34" "(unknown)")
+	(
+		Connect("CONN1-3")
+		Connect("R104-2")
+	)
+	Net("unnamed_net35" "(unknown)")
+	(
+		Connect("CONN1-4")
+		Connect("R105-2")
+	)
+	Net("unnamed_net36" "(unknown)")
+	(
+		Connect("U2-3")
+		Connect("U3-3")
+	)
+	Net("unnamed_net37" "(unknown)")
+	(
+		Connect("U3-2")
+		Connect("U200-8")
+	)
+	Net("unnamed_net38" "(unknown)")
+	(
+		Connect("U2-4")
+		Connect("U3-5")
+	)
+	Net("unnamed_net39" "(unknown)")
+	(
+		Connect("U3-4")
+		Connect("U200-7")
+	)
+	Net("unnamed_net40" "(unknown)")
+	(
+		Connect("U2-10")
+		Connect("U3-7")
+	)
+	Net("unnamed_net41" "(unknown)")
+	(
+		Connect("U3-6")
+		Connect("U200-6")
+	)
+	Net("unnamed_net42" "(unknown)")
+	(
+		Connect("U2-11")
+		Connect("U3-9")
+	)
+	Net("unnamed_net43" "(unknown)")
+	(
+		Connect("U3-10")
+		Connect("U200-5")
+	)
+	Net("unnamed_net44" "(unknown)")
+	(
+		Connect("U3-12")
+		Connect("U200-19")
+	)
+	Net("unnamed_net45" "(unknown)")
+	(
+		Connect("U3-15")
+		Connect("U200-20")
+	)
+	Net("unnamed_net46" "(unknown)")
+	(
+		Connect("CONN4-1")
+		Connect("U3-11")
+	)
+	Net("unnamed_net47" "(unknown)")
+	(
+		Connect("CONN4-2")
+		Connect("U3-14")
+	)
+	Net("VDD" "(unknown)")
+	(
+		Connect("U105-16")
+		Connect("U106-16")
+	)
+)
