@@ -40,5 +40,6 @@ had been a mistake. In  the end decided to ditch the CNC route, and got a
 proper PCB made. Found that JLCPcb.com was found to be the best choice in terms
 of price and quality. A two layer pcb of decent size costed me just around 
 ten dollars.
-![](pics/bppcb.jpg)
+
+<img src="pics/bplcdpcb.jpg" width=200>
 
