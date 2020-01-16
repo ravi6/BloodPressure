@@ -45,7 +45,7 @@ ten dollars.
 
 Here is the setup while testing the pcb circuit interfaced with bp meter lcd signal bus.
 
-<img src="pics/bptest.jpg data-rotate=90" width=400>
+<img src="pics/bptest.jpg" data-rotate=90 width=400>
 
 ### Phase 5
 Dan had an idea of gutting the bp meter internals from its original case and laying out
