@@ -40,6 +40,16 @@ had been a mistake. In  the end decided to ditch the CNC route, and got a
 proper PCB made. Found that JLCPcb.com was found to be the best choice in terms
 of price and quality. A two layer pcb of decent size costed me just around 
 ten dollars.
-
 <img src="pics/bplcdpcb.jpg" width=200>
+Here is the setup while testing the pcb circuit interfaced with bp meter lcd signal bus.
+<img src="pics/bptest.jpg" width=200>
+
+### Phase 5
+Dan had an idea of gutting the bp meter internals from its original case and laying out
+bare on a nice piece of wood as a display rather than encasing everything in the original
+case. Here is our first attempt on the layout over a piece Maribu wood strip. It is not the
+final product yet, but the preview of final show piece.
+<img src="pics/bplayout.jpg" width=200>
+
+
 
