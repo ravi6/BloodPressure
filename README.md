@@ -30,3 +30,15 @@ Several years passed (6?) since I embarked on this
     has wifi, 16 digital i/o with linux OS for 20dollars. The idea is to use this to drive the digital
     circuit to enable selection of segment to read and decode the digits that are being displayed
     Note we have no way of visually verifying the displayed data.
+### Phase 4
+    After long pause due to my deployment, resumed consilidation of the conceived
+signal conditioner was evaluated on bread board. It worked as expected and
+we were able to decode the LCD line signals and read systolic, diastolic pressures
+along with heart rate. Tried to make a pcb with CNC router but that caused
+angst at no length due to bridged tracks. Reverted back to PCB to see if there
+had been a mistake. In  the end decided to ditch the CNC route, and got a
+proper PCB made. Found that JLCPcb.com was found to be the best choice in terms
+of price and quality. A two layer pcb of decent size costed me just around 
+ten dollars.
+![]pics/bppcb.jpg
+
