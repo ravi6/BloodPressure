@@ -45,14 +45,14 @@ ten dollars.
 
 Here is the setup while testing the pcb circuit interfaced with bp meter lcd signal bus.
 
-<img src="pics/bptest.jpg" data-rotate=90 width=400>
+<img src="pics/bptest.jpg" width=400>
 
 ### Phase 5
 Dan had an idea of gutting the bp meter internals from its original case and laying out
 bare on a nice piece of wood as a display rather than encasing everything in the original
 case. Here is our first attempt on the layout over a piece Maribu wood strip. It is not the
 final product yet, but the preview of final show piece.
-<img src="pics/bplayout.jpg" width=400>
+<img src="pics/bplayout.jpg" data-rotate=90 width=400>
 
 
 
