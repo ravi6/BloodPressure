@@ -1,0 +1,113 @@
+<html>
+<!- A minimalist web GUI to control Onion PWM-->
+<!- Author: Ravi Saripalli ,  29th Aug. 2021M-->
+<style>
+@import url(https://fonts.googleapis.com/css?family=Dosis:700);
+body {
+  font-family: "Dosis", Helvetica, Arial, sans-serif; 
+  background: #ecf0f1;
+  color: #34495e;
+  padding-top: 40px;
+  text-shadow: white 1px 1px 1px;
+}
+#mydiv {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 600px;
+}
+.value {
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 60px;
+  text-shadow: white 2px 2px 2px;
+}
+.label {
+        font-size: 30px;
+	font-color: green;
+    }
+input[type="range"] {
+  -webkit-appearance: none;
+  background-color: #bdc3c7;
+  width: 600px;
+  height: 15px;
+  border-radius: 5px;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #e74c3c;
+  width: 20px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+input[type="range"]::-webkit-slider-thumb:hover {
+    background-color: white;
+    border: 2px solid #e74c3c;
+}
+input[type="range"]::-webkit-slider-thumb:active {
+    transform: scale(1.1);
+}
+
+.button {
+  margin: 20px ;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 3px 3px grey;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<body>
+  <h2>Onion Signal Generator</h2>
+  <div id=mydiv>
+  <div class=label>Frequency (kHz) <span class=value id=kHz>1</span> </div>
+   <input  type="range" min="0" max="10" step="0.1" value="1"
+          onChange='getElementById("kHz").innerHTML=this.value ; '>
+  <div class=label>Duty (%) <span class=value id=Duty>50</span> </div>
+   <input  type="range" min="0" max="100" step="1" value="50"
+          onChange='getElementById("Duty").innerHTML=this.value ; '>
+   <div>
+
+  <button class=button onclick="pulse(true);">Init</button>
+  <button class=button onclick="pulse(false);" >Set</button>
+   </div>
+  </div>
+<script>
+    function pulse(init) { // init boolean flag to initialize
+	// You can use this function call in Slider Change callback
+	//  if you wish to make dynamic changes without Set button
+	
+        var Hz = $("#kHz").text() * 1000 ;
+        var Duty = $("#Duty").text() * 1 ;
+	var data = {} ;
+	if (! init)  
+	  data = {Hz: Hz, Duty: Duty} ; // Json data 
+        $.ajax({
+           method: "POST",
+           url: "pulse.php",
+           data: (data),
+           success: function(response) {
+                       if (init) 
+		          alert(response) ;
+		       else 
+		          console.log(response) ;
+                    }
+             });  //end ajax
+     } // end doit
+</script>
+</body>
+</html>
